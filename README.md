@@ -7,6 +7,11 @@
 
 
 
-#### NeRV: Neural Reflectance and Visibility Fields for Relighting and View Synthesis [[сайт](https://pratulsrinivasan.github.io/nerv/)] [[статья](https://arxiv.org/pdf/2012.03927.pdf)]
+#### NeRV: Neural Reflectance and Visibility Fields for Relighting and View Synthesis (DEC2020) [[сайт](https://pratulsrinivasan.github.io/nerv/)] [[статья](https://arxiv.org/pdf/2012.03927.pdf)]
 
-Работа связана с текстурами
+IN - набор изображений, с непрерывным известным освещением.
+
+OUT - трехмерное представление объекта, с возможностью произвольного освещения и смены точки обзора
+
+COM - 
+

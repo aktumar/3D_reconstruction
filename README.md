@@ -15,3 +15,6 @@ OUT - трехмерное представление объекта, с воз�
 
 COM - 
 
+
+
+#### Category-Specific Object Reconstruction from a Single Image [[статья](https://abhishekkar.info/categoryshapes.pdf)]

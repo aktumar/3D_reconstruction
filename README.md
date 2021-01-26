@@ -1,9 +1,7 @@
 # 3D_reconstruction
-Небольшой литературный обзор по 3D реконструкции (Полезные ссылки, обзор связанных статей и результатов, личные заметки). Начало было положено в августе 2020 года. На создание подобного репо вдохновил [он](https://github.com/aktumar/3D-Machine-Learning) :mage_man:
+Небольшой литературный обзор по 3D реконструкции (Полезные ссылки, обзор связанных статей и результатов, личные заметки). Начало было положено в августе 2020 года. На создание подобного репо вдохновил - [:mage_man:](https://github.com/timzhang642/3D-Machine-Learning), а на исследование - [:mage_man:](https://www.cs.sfu.ca/~furukawa/)
 
 ------
-
-
 
 
 
@@ -18,3 +16,4 @@ COM -
 
 
 #### Category-Specific Object Reconstruction from a Single Image [[статья](https://abhishekkar.info/categoryshapes.pdf)]
+

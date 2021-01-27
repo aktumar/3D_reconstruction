@@ -83,11 +83,19 @@
 
 ### YouTube:
 
-**[[видео](https://www.youtube.com/watch?v=xEwKarW1ZF4)] F8: How A.I. and Point Cloud Reconstruction Will Make VR Realistic**
+**[[видео](https://www.youtube.com/watch?v=xEwKarW1ZF4)] (MAY2018) F8: How A.I. and Point Cloud Reconstruction Will Make VR Realistic**
 
-**[[видео](https://www.youtube.com/watch?v=CBpZtnu1Mig)] DIY 3D Scanner - Fully 3d printed photogrammetry rig**
+**[[видео](https://www.youtube.com/watch?v=CBpZtnu1Mig)] (JUN2018) DIY 3D Scanner - Fully 3d printed photogrammetry rig**
 
-**[[видео](https://www.youtube.com/watch?v=3Wq3vU6Ea6A)] 3D printed 3D Scanner ... in action**
+**[[видео](https://www.youtube.com/watch?v=3Wq3vU6Ea6A)] (FEB2017) 3D printed 3D Scanner ... in action**
+
+**[[видео](https://www.youtube.com/watch?v=bTp1DRfULII)] (MAY2015) Football Stadium 3D Evacuation Simulation**
+
+**[[видео](https://www.youtube.com/watch?v=y9SMd9NwoC0)] (MAR2020) Crowd simulation in Unity3D DOTS. Density & Instance colors**
+
+**[[видео](https://www.youtube.com/watch?v=9SVC7XBhBpk)] (APR2017) Implicit Crowd Simulation**
+
+**[[видео](https://www.youtube.com/watch?v=dR5G5SNI5T4)] (MAY2015) Oasys Software - MassMotion, The World's Most Advanced Crowd Simulation Software**
 
 <a name="stackoveflow" />
 

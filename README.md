@@ -26,6 +26,7 @@
 - **[[статья](https://arxiv.org/pdf/1906.06113.pdf)] (JUN2019) A Survey on Deep Learning Architectures for Image-based Depth Reconstruction**
   - COM - Обзор на все существующие методы - 2015-2019 года, 149 статьи для literarure view, 88 методов для 3d reconstruction (+ 6-8 методов для human face), математическая формулировка, таксономия: и много другое. 
 - **[[статья](https://vision.cs.princeton.edu/projects/2012/3DnotLow/report.pdf)] 3D reconstruction is not just a low-level task: retrospect and survey**
+- **[[статья](https://arxiv.org/pdf/1906.06113v1.pdf)] (JUN2019) A Survey on Deep Learning Architectures for Image-based Depth Reconstruction**
 
 
 
@@ -66,7 +67,7 @@
 
 **[[статья]()] [[код на Lua](https://github.com/Amir-Arsalan/Synthesize3DviaDepthOrSil)] Synthesizing 3D Shapes via Modeling Multi-View Depth Maps and Silhouettes with Deep Generative Networks**
 
-
+**[[статья](https://arxiv.org/pdf/1804.05469.pdf)] (APR2018) Im2Struct: Recovering 3D Shape Structure from a Single RGB Image**
 
 <a name="links" />
 
@@ -82,7 +83,7 @@
 
 ### YouTube:
 
-**[[видео](https://www.youtube.com/watch?v=xEwKarW1ZF4)] F8: How A.I. and Point Cloud Reconstruction Will Make VR Realistic **
+**[[видео](https://www.youtube.com/watch?v=xEwKarW1ZF4)] F8: How A.I. and Point Cloud Reconstruction Will Make VR Realistic**
 
 **[[видео](https://www.youtube.com/watch?v=CBpZtnu1Mig)] DIY 3D Scanner - Fully 3d printed photogrammetry rig**
 

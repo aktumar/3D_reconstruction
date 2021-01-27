@@ -8,8 +8,10 @@
 - [Обзорные ссылки](#review)
 - [Статьи](#papers)
 - [Дополнительные ссылки](#links)
-  - [Stackoveflow:](#stackoveflow)
+  - [Хабр:](#habr)
   - [YouTube:](#youtube)
+  - [Stackoveflow:](#stackoveflow)
+  - [Разное:](#other)
   - [Платформы:](#platform)
 
 
@@ -21,9 +23,14 @@
 Общий обзор на исследование, литературный обзор, ссылки на разные тематические статьи других авторов.
 
 - **[[статья](https://arxiv.org/pdf/1906.06543.pdf)] (NOV2019) Image-based 3D Object Reconstruction: State-of-the-Art and Trends in the Deep Learning Era**
-
 - **[[статья](https://arxiv.org/pdf/1906.06113.pdf)] (JUN2019) A Survey on Deep Learning Architectures for Image-based Depth Reconstruction**
   - COM - Обзор на все существующие методы - 2015-2019 года, 149 статьи для literarure view, 88 методов для 3d reconstruction (+ 6-8 методов для human face), математическая формулировка, таксономия: и много другое. 
+- **[[статья](https://vision.cs.princeton.edu/projects/2012/3DnotLow/report.pdf)] 3D reconstruction is not just a low-level task: retrospect and survey**
+
+
+
+
+
 - **[[GitHub](https://github.com/Yochengliu/awesome-point-cloud-analysis#---recent-papers-from-2017)] awesome-point-cloud-analysis**
   - COM - 
 - **[[GitHub](https://github.com/aktumar/3D-Machine-Learning)] 3D-Machine-Learning**
@@ -51,9 +58,9 @@
 
 **[[статья](https://arxiv.org/pdf/2001.06280v1.pdf)] (JAN2020) Review: deep learning on 3D point clouds**
 
-**[[статья](https://sci-hub.se/10.1145/3150165.3150166)] (2017) Cloud-based collaborative 3D reconstruction using smartphones ** 
+**[[статья](https://sci-hub.se/10.1145/3150165.3150166)] (2017) Cloud-based collaborative 3D reconstruction using smartphones**  
 
-**[[статья](https://arxiv.org/pdf/1809.03770.pdf)] (SEP2018) 3D Human Body Reconstruction from a Single Image via Volumetric Regression **
+**[[статья](https://arxiv.org/pdf/1809.03770.pdf)] (SEP2018) 3D Human Body Reconstruction from a Single Image via Volumetric Regression**
 
 **[[статья](https://arxiv.org/pdf/1803.03352v1.pdf)] (MAR2018) Indoor Scene Understanding in 2.5/3D: A Survey**
 
@@ -65,21 +72,39 @@
 
 ## Дополнительные ссылки
 
-<a name="stackoveflow" />
+<a name="habr" />
 
-### Stackoveflow:
+### Хабр:
 
-[[1](https://stackoverflow.com/questions/7705377/3d-reconstruction-how-to-create-3d-model-from-2d-image)]: 
+**[[1](https://habr.com/ru/company/top3dshop/blog/511026/)] Обзор программного обеспечения для 3D-сканирования и обработки данных**
 
 <a name="youtube" />
 
 ### YouTube:
 
-[[видео](https://www.youtube.com/watch?v=xEwKarW1ZF4)] **F8: How A.I. and Point Cloud Reconstruction Will Make VR Realistic **
+**[[видео](https://www.youtube.com/watch?v=xEwKarW1ZF4)] F8: How A.I. and Point Cloud Reconstruction Will Make VR Realistic **
+
+**[[видео](https://www.youtube.com/watch?v=CBpZtnu1Mig)] DIY 3D Scanner - Fully 3d printed photogrammetry rig**
+
+**[[видео](https://www.youtube.com/watch?v=3Wq3vU6Ea6A)] 3D printed 3D Scanner ... in action**
+
+<a name="stackoveflow" />
+
+### Stackoveflow:
+
+**[[1](https://stackoverflow.com/questions/7705377/3d-reconstruction-how-to-create-3d-model-from-2d-image)]:** 
+
+<a name="other" />
+
+### Разное:
+
+**[[сайт](https://machinelearningmastery.com/a-gentle-introduction-to-pix2pix-generative-adversarial-network/)] A Gentle Introduction to Pix2Pix Generative Adversarial Network**
+
+- COM - Про систему GAN
 
 <a name="platform" />
 
 ### Платформы:
 
-[Agisoft Metashape](https://www.agisoft.com/)
+**[Agisoft Metashape](https://www.agisoft.com/)**
 

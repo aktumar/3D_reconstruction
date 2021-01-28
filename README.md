@@ -69,6 +69,14 @@
 
 **[[статья](https://arxiv.org/pdf/1804.05469.pdf)] (APR2018) Im2Struct: Recovering 3D Shape Structure from a Single RGB Image**
 
+**[[статья](https://arxiv.org/pdf/1906.05113.pdf)] (APR2020) A Survey of Autonomous Driving: Common Practices and Emerging Technologies**
+
+**[[статья](https://arxiv.org/pdf/2010.04595.pdf)] [[GitHub](https://github.com/alextrevithick/GRF)] (NOV2020) GRF: LEARNING A GENERAL RADIANCE FIELD FOR 3D SCENE REPRESENTATION AND RENDERING**
+
+**[[статья](https://arxiv.org/pdf/2004.00452.pdf)] (APR2020) PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization**
+
+**[[статья](https://storage.googleapis.com/immersive-lf-video-siggraph2020/ImmersiveLightFieldVideoWithALayeredMeshRepresentation.pdf)] [[сайт](https://augmentedperception.github.io/deepviewvideo/)] Immersive Light Field Video with a Layered Mesh Representation**
+
 <a name="links" />
 
 ## Дополнительные ссылки
@@ -96,6 +104,12 @@
 **[[видео](https://www.youtube.com/watch?v=9SVC7XBhBpk)] (APR2017) Implicit Crowd Simulation**
 
 **[[видео](https://www.youtube.com/watch?v=dR5G5SNI5T4)] (MAY2015) Oasys Software - MassMotion, The World's Most Advanced Crowd Simulation Software**
+
+**[[видео](https://www.youtube.com/watch?v=o1RbLLVwFTA&feature=emb_title)] (MAR2020) Unmanned Aerial Vehicle Path Planning for Exploration Mapping**
+
+**[[видео](https://www.youtube.com/watch?v=-mQ60wNgKrQ&feature=youtu.be)] (NOV2020) The Beirut Port Explosions (English)**
+
+**[[видео](https://www.youtube.com/watch?v=eCDBA_SbxCE)] (JUL2020) 3D Deep Learning with PyTorch3D by Nikhila Ravi**
 
 <a name="stackoveflow" />
 

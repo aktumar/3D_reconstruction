@@ -45,6 +45,12 @@
 
 
 
+**[[статья](http://3dshapenets.cs.princeton.edu/paper.pdf)] [[сайт](http://3dshapenets.cs.princeton.edu/)] (2015) 3D ShapeNets: A Deep Representation for Volumetric Shapes**
+
+- IN - 
+- OUT - 
+- COM - 2015 году трехмерное представление было не так уж популярно в распозновании объектов, однако с появленим недорогих датчиков глубины 2.5D, можно было иметь объемное представление модели
+
 **[[статья](https://arxiv.org/pdf/2012.03927.pdf)] [[сайт](https://pratulsrinivasan.github.io/nerv/)] (DEC2020) NeRV: Neural Reflectance and Visibility Fields for Relighting and View Synthesis**
 
 - IN - набор изображений, с непрерывным известным освещением.

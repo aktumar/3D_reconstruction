@@ -5,37 +5,19 @@
 
 ## Содержание
 
-- [Обзорные ссылки](#review)
 - [Статьи](#papers)
+  - [Обзорные](#review)
+  - [Датасеты](#dataset)
+  - [Теория](theory)
 - [Дополнительные ссылки](#links)
   - [Хабр:](#habr)
+  - [GitHub:](#github)
   - [YouTube:](#youtube)
   - [Stackoveflow:](#stackoveflow)
   - [Разное:](#other)
   - [Платформы:](#platform)
 
 
-
-<a name="review" />
-
-## Обзорные ссылки
-
-Общий обзор на исследование, литературный обзор, ссылки на разные тематические статьи других авторов.
-
-- **[[статья](https://arxiv.org/pdf/1906.06543.pdf)] (NOV2019) Image-based 3D Object Reconstruction: State-of-the-Art and Trends in the Deep Learning Era**
-- **[[статья](https://arxiv.org/pdf/1906.06113.pdf)] (JUN2019) A Survey on Deep Learning Architectures for Image-based Depth Reconstruction**
-  - COM - Обзор на все существующие методы - 2015-2019 года, 149 статьи для literarure view, 88 методов для 3d reconstruction (+ 6-8 методов для human face), математическая формулировка, таксономия: и много другое. 
-- **[[статья](https://vision.cs.princeton.edu/projects/2012/3DnotLow/report.pdf)] 3D reconstruction is not just a low-level task: retrospect and survey**
-- **[[статья](https://arxiv.org/pdf/1906.06113v1.pdf)] (JUN2019) A Survey on Deep Learning Architectures for Image-based Depth Reconstruction**
-
-
-
-
-
-- **[[GitHub](https://github.com/Yochengliu/awesome-point-cloud-analysis#---recent-papers-from-2017)] awesome-point-cloud-analysis**
-  - COM - 
-- **[[GitHub](https://github.com/aktumar/3D-Machine-Learning)] 3D-Machine-Learning**
-  - COM - 
 
 <a name="papers" />
 
@@ -45,11 +27,33 @@
 
 
 
-**[[статья](http://3dshapenets.cs.princeton.edu/paper.pdf)] [[сайт](http://3dshapenets.cs.princeton.edu/)] (2015) 3D ShapeNets: A Deep Representation for Volumetric Shapes**
+<a name="review" />
+
+### Обзорные
+
+Общий обзор на исследование, литературный обзор, ссылки на разные тематические статьи других авторов.
+
+- **[[статья](https://arxiv.org/pdf/1906.06543.pdf)] (NOV2019) Image-based 3D Object Reconstruction: State-of-the-Art and Trends in the Deep Learning Era**
+- **[[статья](https://arxiv.org/pdf/1906.06113.pdf)] (JUN2019) A Survey on Deep Learning Architectures for Image-based Depth Reconstruction**
+  - COM - Обзор на все существующие методы - 2015-2019 года, 149 статьи для literarure view, 88 методов для 3d reconstruction (+ 6-8 методов для human face), математическая формулировка, таксономия: и много другое. 
+- **[[статья](https://vision.cs.princeton.edu/projects/2012/3DnotLow/report.pdf)] 3D reconstruction is not just a low-level task: retrospect and survey**
+- **[[статья](https://arxiv.org/pdf/1906.06113v1.pdf)] (JUN2019) A Survey on Deep Learning Architectures for Image-based Depth Reconstruction**
+
+<a name="dataset" />
+
+### Датасеты
+
+**[[статья](http://3dshapenets.cs.princeton.edu/paper.pdf)] [[сайт](http://3dshapenets.cs.princeton.edu/)] (MAY2015) 3D ShapeNets: A Deep Representation for Volumetric Shapes**
 
 - IN - 
-- OUT - 
-- COM - 2015 году трехмерное представление было не так уж популярно в распозновании объектов, однако с появленим недорогих датчиков глубины 2.5D, можно было иметь объемное представление модели
+- OUT - Представление геометрической трехмерной фигуры как распределение вероятности двоичных переменных на трехмерной сетке вокселей, используя сверточную сеть глубокого убеждения. Модель поддерживает распознование образов по карте глубины 2.5D и просматривать планирование распознования объектов.
+- COM - 2015 году трехмерное представление было не так уж популярно в распозновании объектов, однако с появленим недорогих датчиков глубины 2.5D, можно было иметь объемное представление модели. 
+
+**[[статья](https://arxiv.org/pdf/1709.06158.pdf)] [[сайт](https://niessner.github.io/Matterport/)] [[код](https://github.com/niessner/Matterport)] (SEP2017) Matterport3D: Learning from RGB-D Data in Indoor Environments**
+
+<a name="theory"/>
+
+### Теория
 
 **[[статья](https://arxiv.org/pdf/2012.03927.pdf)] [[сайт](https://pratulsrinivasan.github.io/nerv/)] (DEC2020) NeRV: Neural Reflectance and Visibility Fields for Relighting and View Synthesis**
 
@@ -92,6 +96,18 @@
 ### Хабр:
 
 **[[1](https://habr.com/ru/company/top3dshop/blog/511026/)] Обзор программного обеспечения для 3D-сканирования и обработки данных**
+
+<a name="github" />
+
+### GitHub:
+
+**[[GitHub](https://github.com/Yochengliu/awesome-point-cloud-analysis#---recent-papers-from-2017)] awesome-point-cloud-analysis**
+
+- COM - 
+
+**[[GitHub](https://github.com/aktumar/3D-Machine-Learning)] 3D-Machine-Learning**
+
+- COM - 
 
 <a name="youtube" />
 

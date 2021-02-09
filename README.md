@@ -60,7 +60,7 @@
 
 **[[статья](http://3dshapenets.cs.princeton.edu/paper.pdf)] [[сайт](http://3dshapenets.cs.princeton.edu/)] (MAY2015) 3D ShapeNets: A Deep Representation for Volumetric Shapes**
 
-- COM - Компьютерное зрение было создано 50 лет назад(?). 2015 году трехмерное представление было не так уж популярно в распозновании объектов, однако с появленим недорогих датчиков глубины 2.5D, можно было иметь объемное представление модели. Оказывается существует множество теории о трехмерном представлений (3D representation), однако все ограничевается распознованием отдельных экземпляров
+- COM - Компьютерное зрение было создано 50 лет назад(?). 2015 году трехмерное представление было не так уж популярно в распозновании объектов, однако с появленим недорогих датчиков глубины 2.5D, можно было иметь объемное представление модели. Оказывается существует множество теории о трехмерном представлений (3D representation) - [[1](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#1)], однако все ограничевается распознованием отдельных экземпляров
 
 
 
@@ -89,7 +89,17 @@
 **[[статья](https://arxiv.org/pdf/2012.03927.pdf)] [[сайт](https://pratulsrinivasan.github.io/nerv/)] (DEC2020) NeRV: Neural Reflectance and Visibility Fields for Relighting and View Synthesis**
 
 - IN - набор изображений, с непрерывным известным освещением.
+
+
+
+
+
 - OUT - трехмерное представление объекта, с возможностью произвольного освещения и смены точки обзора
+
+
+
+
+
 - COM - 
 
 **[[статья](https://abhishekkar.info/categoryshapes.pdf)] Category-Specific Object Reconstruction from a Single Image**

@@ -34,9 +34,24 @@
 Общий обзор на исследование, литературный обзор, ссылки на разные тематические статьи других авторов.
 
 - **[[статья](https://arxiv.org/pdf/1906.06543.pdf)] (NOV2019) Image-based 3D Object Reconstruction: State-of-the-Art and Trends in the Deep Learning Era**
+
+
+
+
+
 - **[[статья](https://arxiv.org/pdf/1906.06113.pdf)] (JUN2019) A Survey on Deep Learning Architectures for Image-based Depth Reconstruction**
   - COM - Обзор на все существующие методы - 2015-2019 года, 149 статьи для literarure view, 88 методов для 3d reconstruction (+ 6-8 методов для human face), математическая формулировка, таксономия: и много другое. 
+
+
+
+
+
 - **[[статья](https://vision.cs.princeton.edu/projects/2012/3DnotLow/report.pdf)] 3D reconstruction is not just a low-level task: retrospect and survey**
+
+
+
+
+
 - **[[статья](https://arxiv.org/pdf/1906.06113v1.pdf)] (JUN2019) A Survey on Deep Learning Architectures for Image-based Depth Reconstruction**
 
 <a name="dataset" />
@@ -46,8 +61,23 @@
 **[[статья](http://3dshapenets.cs.princeton.edu/paper.pdf)] [[сайт](http://3dshapenets.cs.princeton.edu/)] (MAY2015) 3D ShapeNets: A Deep Representation for Volumetric Shapes**
 
 - COM - Компьютерное зрение было создано 50 лет назад(?). 2015 году трехмерное представление было не так уж популярно в распозновании объектов, однако с появленим недорогих датчиков глубины 2.5D, можно было иметь объемное представление модели. Оказывается существует множество теории о трехмерном представлений (3D representation), однако все ограничевается распознованием отдельных экземпляров
+
+
+
+
+
 - COM1 - В статье предлагается представить геометрическую трехмерную модель как распределение вероятностей двоичных переменных на трехмерной воксельной сетке, используя - Convolutional Deep Belief Network. 3D ShapeNets поддерживает распознование образов по карте глубины 2.5D и просматривать планирование распознования объектов, изучает распределение сложных трехмерных форм по разным категориям объектов и призвольным позициям на основе необработанных - CAD data. А также модель может автоматический обнаруживать иерархические представления композиционных частей. 
+
+
+
+
+
 - COM2 - Для обучения собственной модели 3D ShapeNets был создан большой датасет под названим ModelNet (a large-scale 3D CAD model dataset). В статье говорится что данное трехмерное предствление позволяет повыстить производительность по сравнению с современными технологиями (точнее современными они были 2015 годах, ведь сейчас считается что трехмерное представление уже не так актуально - Возможно(?))
+
+
+
+
+
 - COM3 - 
 
 **[[статья](https://arxiv.org/pdf/1709.06158.pdf)] [[сайт](https://niessner.github.io/Matterport/)] [[код](https://github.com/niessner/Matterport)] (SEP2017) Matterport3D: Learning from RGB-D Data in Indoor Environments**

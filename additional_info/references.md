@@ -11,3 +11,19 @@
 [3] E. Kalogerakis, S. Chaudhuri, D. Koller, and V. Koltun. A probabilistic model for component-based shape synthesis. ACM Transactions on Graphics (TOG), 2012. [back](https://github.com/aktumar/3D_reconstruction/blob/main/README.md#2)
 
 [4] C.-H. Shen, H. Fu, K. Chen, and S.-M. Hu. Structure recovery by part assembly. ACM Transactions on Graphics (TOG), 2012. [back](https://github.com/aktumar/3D_reconstruction/blob/main/README.md#2)
+
+<a name="3" />
+
+[5] P. K. Nathan Silberman, Derek Hoiem and R. Fergus. Indoor segmentation and support inference from rgbd images. In ECCV, 2012. [back](https://github.com/aktumar/3D_reconstruction/blob/main/README.md#3)
+
+<a name="4"/> 
+
+[6] M. Attene. A lightweight approach to repairing digitized polygon meshes. The Visual Computer, 2010. [back](https://github.com/aktumar/3D_reconstruction/blob/main/README.md#4)
+
+[7] S. Shalom, A. Shamir, H. Zhang, and D. Cohen-Or. Cone carving for surface reconstruction. In ACM Transactions on Graphics (TOG), 2010. [back](https://github.com/aktumar/3D_reconstruction/blob/main/README.md#4)
+
+<a name="5"/> 
+
+[8] R. Socher, B. Huval, B. Bhat, C. D. Manning, and A. Y. Ng. Convolutional-recursive deep learning for 3d object classification. In NIPS. 2012. [back](https://github.com/aktumar/3D_reconstruction/blob/main/README.md#5)
+
+[9] S. Gupta, R. Girshick, P. Arbelaez, and J. Malik. Learning ´ rich features from rgb-d images for object detection and segmentation. In ECCV. 2014. [back](https://github.com/aktumar/3D_reconstruction/blob/main/README.md#5)

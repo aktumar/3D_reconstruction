@@ -1,7 +1,9 @@
 # 3D reconstruction
-Небольшой литературный обзор по 3D реконструкции (Полезные ссылки, обзор связанных статей и результатов, личные заметки). Начало было положено в августе 2020 года. На создание подобного репо вдохновил - [:mage_man:](https://github.com/timzhang642/3D-Machine-Learning), а на исследование - [:mage_man:](https://www.cs.sfu.ca/~furukawa/) :)
+Небольшое исследование 3D реконструкции (Полезные ссылки, обзор связанных статей и результатов, личные заметки). Начало было положено в августе 2020 года. На создание подобного репо вдохновил - [:mage_man:](https://github.com/timzhang642/3D-Machine-Learning), а на исследование - [:mage_man:](https://www.cs.sfu.ca/~furukawa/) :)​
 
-
+> Справка:
+>
+> :mag_right: - WHAT? - Разобрать в ближайшее время
 
 ## Содержание
 
@@ -58,11 +60,11 @@
 
 ### Датасеты
 
-**[[статья](http://3dshapenets.cs.princeton.edu/paper.pdf)] [[сайт](http://3dshapenets.cs.princeton.edu/)] (MAY2015) 3D ShapeNets: A Deep Representation for Volumetric Shapes**
+**[[статья](http://3dshapenets.cs.princeton.edu/paper.pdf)] (MAY2015) 3D ShapeNets: A Deep Representation for Volumetric Shapes [[сайт](http://3dshapenets.cs.princeton.edu/)]**
 
 <a name="1" />
 
-- COM - Компьютерное зрение было создано 50 лет назад(?). Раньше трехмерное представление было не так уж популярно в распознавании объектов. Но появление датчиков глубины в 2.5D дали толчок на использование карт глубины (depth map) в распознавании объектов, такие как Sliding Shapes [[1](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#1)]. Такие датчики давали точную глубину, что сыграло важную роль для трехмерного представления в распознавании. Ну и в результате стало важно иметь трехмерное представление в современных системах компьютерного зрения. Впрочем и тут возникают другие проблемы, например, как выглядит невидимая часть модели?  Человек уже, как правило, имеет предварительное знание об определенных предметах. К примеру, ему не обязательно видеть, как выглядит обратная сторона вазы/машины и т.д., как выглядит здание, прикрытое растущим деревом, как выглядит человек со спины.. 
+- COM - Компьютерное зрение было создано 50 лет назад (:mag_right:). Раньше трехмерное представление было не так уж популярно в распознавании объектов. Но появление датчиков глубины в 2.5D дали толчок на использование карт глубины (depth map) в распознавании объектов, такие как Sliding Shapes [[1](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#1)]. Такие датчики давали точную глубину, что сыграло важную роль для трехмерного представления в распознавании. Ну и в результате стало важно иметь трехмерное представление в современных системах компьютерного зрения. Впрочем и тут возникают другие проблемы, например, как выглядит невидимая часть модели?  Человек уже, как правило, имеет предварительное знание об определенных предметах. К примеру, ему не обязательно видеть, как выглядит обратная сторона вазы/машины и т.д., как выглядит здание, прикрытое растущим деревом, как выглядит человек со спины.. 
 
 
 
@@ -74,17 +76,17 @@
 
 <a name="2" />
 
-- COM2 - В статье также говорится о синтезе форм и восстановлении [[2-4](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#2)] - что они ограничиваются сборкой на основе деталей (part-based assembly), да и удовольствие это дорогое. Но что касается вопроса трехмерного представления, то судя по описанию, им нужен управляемый данными способ изучения сложных распределенных форм из необработанных трехмерных данных по категориям и позициям объектов. А также автоматизированное обнаружение иерархического композиционного представления частей. (Ничего не понятно, но очень интересно :D - шутка - уйдет на разбор темы)
+- COM2 - В статье также говорится о синтезе форм и восстановлении [[2-4](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#2)] - что они ограничиваются сборкой на основе деталей (part-based assembly), да и удовольствие это дорогое. Но что касается вопроса трехмерного представления, то судя по описанию, им нужен управляемый данными способ изучения сложных распределенных форм из необработанных трехмерных данных по категориям и позициям объектов. А также автоматизированное обнаружение иерархического композиционного представления частей. (Ничего не понятно, но очень интересно :D - шутка - уйдет на разбор темы :mag_right:)
 
 
 
+<a name="3" />
 
-
-- COM3 - В статье предлагается представить геометрическую трехмерную модель как распределение вероятностей двоичных переменных на трехмерной воксельной сетке, используя - Convolutional Deep Belief Network. 3D ShapeNets поддерживает распознавание образов по карте глубины 2.5D и просматривать планирование распознавания объектов, изучает распределение сложных трехмерных форм по разным категориям объектов и произвольным позициям на основе необработанных - CAD data.
+- COM3 - В статье предлагается представить геометрическую трехмерную модель как вероятностное распределение двоичных переменных на трехмерной воксельной сетке, используя - Convolutional Deep Belief Network (Визуализация, управляемая данными:mag_right: - да и уровни представлены довольно таки интересно, от простых до самых сложных по форме объектов - лучше почитать по-подробнее). 3D ShapeNets поддерживает распознавание образов по карте глубины 2.5D и просматривать планирование распознавания объектов, изучает распределение сложных трехмерных форм по разным категориям объектов и произвольным позициям на основе необработанных - CAD data. (We demonstrate the strength of our model at capturing complex object shapes by drawing samples from the model :mag_right:) 3D ShapeNets хорошо обобщается на данные реального мира из набора данных глубины NYU [[5](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#3)]
 
   <p align="center"><img width="50%" src="https://github.com/aktumar/3D_reconstruction/blob/main/media/3D_ShapeNets.png" /></p>
 
-  IN - Карта глубины объекта, которая в свою очередь проходит предварительное преобразование в трехмерное представление.
+  IN - Карта глубины объекта, которая в свою очередь проходит предварительное преобразование в трехмерное представление
 
   OUT - Распознавание категории объекта
 
@@ -92,15 +94,34 @@
 
   OUT - Предсказание самого оптимального следующего ракурса, в случае непонятного первоначального вида и недостающих частей
 
-  OUT - Интегрирование картинок с новых ракурсов совместно с остальными (wt?)
+  OUT - Интегрирование картинок с новых ракурсов совместно с остальными :mag_right:
+  
 
 
 
 
 
-- COM4 - Для обучения собственной модели 3D ShapeNets был создан большой датасет под названием ModelNet (a large-scale 3D CAD model dataset). В статье говорится что данное трехмерное представление позволяет повысить производительность по сравнению с современными технологиями (точнее современными они были 2015 годах, ведь сейчас считается что трехмерное представление (voxel) уже не так актуально - Возможно(?))
+- COM4 - Для обучения собственной модели 3D ShapeNets был создан большой датасет под названием ModelNet (a large-scale object dataset of 3D computer graphics CAD models). В статье говорится что данное трехмерное представление позволяет повысить производительность по сравнению с современными технологиями (точнее современными они были 2015 годах, ведь сейчас считается что трехмерное представление (voxel) уже не так актуально - Возможно :mag_right:)
 
-**[[статья](https://arxiv.org/pdf/1709.06158.pdf)] [[сайт](https://niessner.github.io/Matterport/)] [[код](https://github.com/niessner/Matterport)] (SEP2017) Matterport3D: Learning from RGB-D Data in Indoor Environments**
+
+
+<a name="4" />
+
+- COM5 - В статье описываются исследования (related works) по теме - 3D CAD model collections [[2-4](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#2)]. В этих работах в основном  используется `подход на основе сборки для построения моделей из деформируемых деталей`. Но в этом подходе есть недостаток - ограничение определенным классом форм (соответствие поверхности). В нашем же случае, мы должны подстраиваться под разные трехмерные представления, не зависимо от того, есть ли для него соответствующий класс. Да и представление каждой детали по отдельности довольно трудоемкая и затратная работа. Есть другие `подходы основанные на гладкой интерполяции или экстраполяции`, которые позволяют устранить только небольшие дыры или недостатки [[6-7](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#4)]. Методы, `основанные на шаблонах` [[4](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#2)], могут справиться с большими поверхностными повреждениями, но ограничены качеством доступных шаблонов, и не могут обеспечивать различные семантические интерпретации реконструкций. 
+
+
+
+<a name="5" />
+
+- COM6 - Для сравнения в статье говорится, что многие подходы применяемые для двумерной формы (например, рукопись, распознавание лица и т.д.) могут стать отличной базой для восстановления трехмерной формы. Они первые, кто начал работу над созданием трехмерных моделей глубокого обучения. Для возможности работы с большим количеством вокселей они применили технику свертки, как в [[8](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#5)]. Также их модель похожа на работы [[8-9](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#5)], которые создают дискриминантные сверточные нейронные сети для 2.5D глубокого обучения, чтобы моделировать изображения и карту глубины.
+
+
+
+
+
+- COM7 - В статье затрагивается проблема `Next-Best-View` [[7](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#4)] - планирование просмотра на основе текущего наблюдения - можно увидеть ссылки на другие работы с различными вариантами решения. 
+
+**[[статья](https://arxiv.org/pdf/1709.06158.pdf)] (SEP2017) Matterport3D: Learning from RGB-D Data in Indoor Environments [[сайт](https://niessner.github.io/Matterport/)] [[код](https://github.com/niessner/Matterport)]**
 
 <a name="theory"/>
 
@@ -108,45 +129,45 @@
 
 #### 2015
 
-**[[статья](https://abhishekkar.info/categoryshapes.pdf)] (MAY2015) Category-Specific Object Reconstruction from a Single Image**
+**[[статья](https://abhishekkar.info/categoryshapes.pdf)] Category-Specific Object Reconstruction from a Single Image**
 
 #### 2016
 
 #### 2017
 
-**[[статья](https://sci-hub.se/10.1145/3150165.3150166)] (2017) Cloud-based collaborative 3D reconstruction using smartphones**  
+**[[статья](https://sci-hub.se/10.1145/3150165.3150166)] Cloud-based collaborative 3D reconstruction using smartphones**  
 
-**[[статья](https://openaccess.thecvf.com/content_cvpr_2017/papers/Soltani_Synthesizing_3D_Shapes_CVPR_2017_paper.pdf)] (2017) Synthesizing 3D Shapes via Modeling Multi-View Depth Maps and Silhouettes with Deep Generative Networks [[код на Lua](https://github.com/Amir-Arsalan/Synthesize3DviaDepthOrSil)]**
+**[[статья](https://openaccess.thecvf.com/content_cvpr_2017/papers/Soltani_Synthesizing_3D_Shapes_CVPR_2017_paper.pdf)] Synthesizing 3D Shapes via Modeling Multi-View Depth Maps and Silhouettes with Deep Generative Networks [[код на Lua](https://github.com/Amir-Arsalan/Synthesize3DviaDepthOrSil)]**
 
 #### 2018
 
-**[[статья](https://arxiv.org/pdf/1803.03352v1.pdf)] (MAR2018) Indoor Scene Understanding in 2.5/3D: A Survey**
+**[[статья](https://arxiv.org/pdf/1803.03352v1.pdf)] Indoor Scene Understanding in 2.5/3D: A Survey**
 
-**[[статья](https://arxiv.org/pdf/1804.05469.pdf)] (APR2018) Im2Struct: Recovering 3D Shape Structure from a Single RGB Image**
+**[[статья](https://arxiv.org/pdf/1804.05469.pdf)] Im2Struct: Recovering 3D Shape Structure from a Single RGB Image**
 
-**[[статья](https://arxiv.org/pdf/1809.03770.pdf)] (SEP2018) 3D Human Body Reconstruction from a Single Image via Volumetric Regression**
+**[[статья](https://arxiv.org/pdf/1809.03770.pdf)] 3D Human Body Reconstruction from a Single Image via Volumetric Regression**
 
 #### 2019
 
-**[[статья](https://www.dgpf.de/src/tagung/jt2019/proceedings/proceedings/papers/23_3LT2019_Schmohl_Soergel.pdf)] (2019) ALS Klassifizierung mit Submanifold Sparse Convolutional Networks [[сайт](https://www.ifp.uni-stuttgart.de/en/research/remote_sensing/als_point_cloud_classification/)]**
+**[[статья](https://www.dgpf.de/src/tagung/jt2019/proceedings/proceedings/papers/23_3LT2019_Schmohl_Soergel.pdf)] ALS Klassifizierung mit Submanifold Sparse Convolutional Networks [[сайт](https://www.ifp.uni-stuttgart.de/en/research/remote_sensing/als_point_cloud_classification/)]**
 
 - COM - Вокселизация облака точек
 
 #### 2020
 
-**[[статья](https://arxiv.org/pdf/2001.06280v1.pdf)] (JAN2020) Review: deep learning on 3D point clouds**
+**[[статья](https://arxiv.org/pdf/2001.06280v1.pdf)] Review: deep learning on 3D point clouds**
 
-**[[статья](https://arxiv.org/pdf/2003.09754.pdf)] (MAR2020) Learning 3D Part Assembly from a Single Image [[сайт](https://cs.stanford.edu/~kaichun/impartass/)] [[код на Python](https://github.com/AntheaLi/3DPartAssembly)]** 
+**[[статья](https://arxiv.org/pdf/2003.09754.pdf)] Learning 3D Part Assembly from a Single Image [[сайт](https://cs.stanford.edu/~kaichun/impartass/)] [[код на Python](https://github.com/AntheaLi/3DPartAssembly)]** 
 
-**[[статья](https://arxiv.org/pdf/1906.05113.pdf)] (APR2020) A Survey of Autonomous Driving: Common Practices and Emerging Technologies**
+**[[статья](https://arxiv.org/pdf/1906.05113.pdf)] A Survey of Autonomous Driving: Common Practices and Emerging Technologies**
 
-**[[статья](https://arxiv.org/pdf/2004.00452.pdf)] (APR2020) PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization**
+**[[статья](https://arxiv.org/pdf/2004.00452.pdf)] PIFuHD: Multi-Level Pixel-Aligned Implicit Function for High-Resolution 3D Human Digitization**
 
-**[[статья](https://storage.googleapis.com/immersive-lf-video-siggraph2020/ImmersiveLightFieldVideoWithALayeredMeshRepresentation.pdf)] (JUL2020) Immersive Light Field Video with a Layered Mesh Representation [[сайт](https://augmentedperception.github.io/deepviewvideo/)]**
+**[[статья](https://storage.googleapis.com/immersive-lf-video-siggraph2020/ImmersiveLightFieldVideoWithALayeredMeshRepresentation.pdf)] Immersive Light Field Video with a Layered Mesh Representation [[сайт](https://augmentedperception.github.io/deepviewvideo/)]**
 
-**[[статья](https://arxiv.org/pdf/2010.04595.pdf)] (NOV2020) GRF: LEARNING A GENERAL RADIANCE FIELD FOR 3D SCENE REPRESENTATION AND RENDERING [[GitHub](https://github.com/alextrevithick/GRF)]**
+**[[статья](https://arxiv.org/pdf/2010.04595.pdf)] GRF: LEARNING A GENERAL RADIANCE FIELD FOR 3D SCENE REPRESENTATION AND RENDERING [[GitHub](https://github.com/alextrevithick/GRF)]**
 
-**[[статья](https://arxiv.org/pdf/2012.03927.pdf)] [[сайт](https://pratulsrinivasan.github.io/nerv/)] (DEC2020) NeRV: Neural Reflectance and Visibility Fields for Relighting and View Synthesis**
+**[[статья](https://arxiv.org/pdf/2012.03927.pdf)] NeRV: Neural Reflectance and Visibility Fields for Relighting and View Synthesis [[сайт](https://pratulsrinivasan.github.io/nerv/)]**
 
 - IN - набор изображений, с непрерывным известным освещением.
 

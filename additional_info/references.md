@@ -27,3 +27,7 @@
 [8] R. Socher, B. Huval, B. Bhat, C. D. Manning, and A. Y. Ng. Convolutional-recursive deep learning for 3d object classification. In NIPS. 2012. [back](https://github.com/aktumar/3D_reconstruction/blob/main/README.md#5)
 
 [9] S. Gupta, R. Girshick, P. Arbelaez, and J. Malik. Learning ´ rich features from rgb-d images for object detection and segmentation. In ECCV. 2014. [back](https://github.com/aktumar/3D_reconstruction/blob/main/README.md#5)
+
+<a name="6"/>
+
+[10] F. G. Callari and F. P. Ferrie. Active object recognition: Looking for differences. IJCV, 2001. [back](https://github.com/aktumar/3D_reconstruction/blob/main/README.md#6)

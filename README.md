@@ -150,16 +150,6 @@
 
 
 
-- COM10 - Энергия сверточного слоя *E* для этой модели может быть вычислена как :
-  $$
-  \begin{align*}
-  E(v,h) = -\sum_f\sum_j(h_j^f(W^f*v)_j+c^fh^f_j)-\sum_lb_lv_l \\
-  \end{align*}
-  $$
-  , где $v_l$
-
-
-
 **[[статья](https://arxiv.org/pdf/1709.06158.pdf)] (SEP2017) Matterport3D: Learning from RGB-D Data in Indoor Environments [[сайт](https://niessner.github.io/Matterport/)] [[код](https://github.com/niessner/Matterport)]**
 
 <a name="theory"/>

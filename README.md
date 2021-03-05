@@ -4,6 +4,8 @@
 > Справка:
 >
 > :mag_right: - WHAT? - Разобрать в ближайшее время
+>
+> :heavy_division_sign: - Ссылка на формулы из статьи
 
 ## Содержание
 
@@ -60,7 +62,7 @@
 
 ### Датасеты
 
-**[[статья](http://3dshapenets.cs.princeton.edu/paper.pdf)] (MAY2015) 3D ShapeNets: A Deep Representation for Volumetric Shapes [[сайт](http://3dshapenets.cs.princeton.edu/)]**
+**[[статья](http://3dshapenets.cs.princeton.edu/paper.pdf)] (MAY2015) 3D ShapeNets: A Deep Representation for Volumetric Shapes [[сайт](http://3dshapenets.cs.princeton.edu/)] [[:heavy_division_sign:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/formulations_just_open_dont_ask.md#form1)]**
 
 <a name="1" />
 
@@ -82,7 +84,7 @@
 
 <a name="3" />
 
-- COM3 - **3D ShapeNets** поддерживает распознавание образов по карте глубины 2.5D и просматривать планирование распознавания объектов, изучает распределение сложных трехмерных форм по разным категориям объектов и произвольным позициям на основе необработанных - CAD data. (We demonstrate the strength of our model at capturing complex object shapes by drawing samples from the model :mag_right:) 3D ShapeNets хорошо обобщается на данные реального мира из набора данных глубины NYU [[5](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#3)]
+- COM3 - **3D ShapeNets** поддерживает распознавание образов по карте глубины 2.5D и просматривать планирование распознавания объектов, изучает распределение сложных трехмерных форм по разным категориям объектов и произвольным позициям на основе необработанных - CAD data. (We demonstrate the strength of our model at capturing complex object shapes by drawing samples from the model :mag_right:) 3D ShapeNets хорошо обобщается на данные реального мира из набора данных глубины NYU [[5](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#3)]. Формула
 
   
 

@@ -134,7 +134,7 @@
 
 - COM7 - Поэтому в статье предлагается представить геометрическую трехмерную модель как вероятностное распределение двоичных переменных на трехмерной воксельной сетке, используя - **Convolutional Deep Belief Network** (CDBN) (Визуализация, управляемая данными:mag_right: - да и уровни представлены довольно таки интересно, от простых до самых сложных по форме объектов: разработка самих авторов CDBN - лучше почитать по-подробнее).
 
-  <p align="center"><img width="50%" src="https://github.com/aktumar/3D_reconstruction/blob/main/media/3D_ShapeNets_2.png" /></p>
+  <p align="center"><img width="70%" src="https://github.com/aktumar/3D_reconstruction/blob/main/media/3D_ShapeNets_2.png" /></p>
 
   
 
@@ -147,12 +147,13 @@
   5) Пятый уровень - слой с 4000 скрытыми элементами. В качестве входных данных принимает комбинацию полиномиальных переменных-меток и переменных свойств Бернулли. 
 
   П.С. Каждый фильтр свертки связан характеристическими каналами предыдущего слоя
-  П.С.С. The top layer forms an associative memory DBN as indicated by the bi-directional arrows, while all the other layer connections are directed top-down.
-
+  
+П.С.С. The top layer forms an associative memory DBN as indicated by the bi-directional arrows, while all the other layer connections are directed top-down.
   
 
   
 
+  
   В отличие от обычных сверточных моделей глубокого обучения, авторы не используют какую-либо форму объединения в скрытых слоях. (Однако, по их мнению, объединение могло бы улучшить свойства инвариантности для распознавания :mag_right:)
 
 

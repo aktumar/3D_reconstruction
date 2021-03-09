@@ -84,7 +84,7 @@
 
 <a name="3" />
 
-- COM3 - **3D ShapeNets** поддерживает распознавание образов по карте глубины 2.5D и просматривать планирование распознавания объектов, изучает распределение сложных трехмерных форм по разным категориям объектов и произвольным позициям на основе необработанных - CAD data. (We demonstrate the strength of our model at capturing complex object shapes by drawing samples from the model :mag_right:) 3D ShapeNets хорошо обобщается на данные реального мира из набора данных глубины NYU [[5](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#3)]. Формула
+- COM3 - **3D ShapeNets** поддерживает распознавание образов по карте глубины 2.5D и просматривать планирование распознавания объектов, изучает распределение сложных трехмерных форм по разным категориям объектов и произвольным позициям на основе необработанных - CAD data. (We demonstrate the strength of our model at capturing complex object shapes by drawing samples from the model :mag_right:) 3D ShapeNets хорошо обобщается на данные реального мира из набора данных глубины NYU [[5](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#3)].
 
   
 
@@ -133,6 +133,25 @@
 
 
 - COM7 - Поэтому в статье предлагается представить геометрическую трехмерную модель как вероятностное распределение двоичных переменных на трехмерной воксельной сетке, используя - **Convolutional Deep Belief Network** (CDBN) (Визуализация, управляемая данными:mag_right: - да и уровни представлены довольно таки интересно, от простых до самых сложных по форме объектов: разработка самих авторов CDBN - лучше почитать по-подробнее).
+
+  <p align="center"><img width="50%" src="https://github.com/aktumar/3D_reconstruction/blob/main/media/3D_ShapeNets_2.png" /></p>
+
+  
+
+  Этот рисунок иллюстрирует архитектуру 3D ShapeNets, а трехмерная фигура представлена в виде сетки 24х24х24 (with 3 extra cells of padding in both directions to reduce the convolution border artifacts :mag_right:) (K softmax variables :mag_right:).
+
+  1) Первый слой состоит из 48 фильтров (размер 6, шаг 2)
+  2) Второй слой состоит из 160 фильтров (размер 5, шаг 2) - каждый фильтр имеет 48х5х5х5 параметров :mag_right:
+  3) Третий слой состоит из 512 фильтров (размер 4, шаг 1)
+  4) Четвертый уровень - стандартный полностью подключенный RBM (Restricted Boltzmann machine :mag_right:) с 1200 скрытыми элементами
+  5) Пятый уровень - слой с 4000 скрытыми элементами. В качестве входных данных принимает комбинацию полиномиальных переменных-меток и переменных свойств Бернулли. 
+
+  П.С. Каждый фильтр свертки связан характеристическими каналами предыдущего слоя
+  П.С.С. The top layer forms an associative memory DBN as indicated by the bi-directional arrows, while all the other layer connections are directed top-down.
+
+  
+
+  
 
   В отличие от обычных сверточных моделей глубокого обучения, авторы не используют какую-либо форму объединения в скрытых слоях. (Однако, по их мнению, объединение могло бы улучшить свойства инвариантности для распознавания :mag_right:)
 

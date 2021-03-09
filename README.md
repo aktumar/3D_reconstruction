@@ -148,11 +148,9 @@
 
   П.С. Каждый фильтр свертки связан характеристическими каналами предыдущего слоя
   
-П.С.С. The top layer forms an associative memory DBN as indicated by the bi-directional arrows, while all the other layer connections are directed top-down.
+  П.С.С. The top layer forms an associative memory DBN as indicated by the bi-directional arrows, while all the other layer connections are directed top-down.
   
-
   
-
   
   В отличие от обычных сверточных моделей глубокого обучения, авторы не используют какую-либо форму объединения в скрытых слоях. (Однако, по их мнению, объединение могло бы улучшить свойства инвариантности для распознавания :mag_right:)
 

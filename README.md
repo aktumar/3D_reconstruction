@@ -134,7 +134,7 @@
 
 - COM7 - Поэтому в статье предлагается представить геометрическую трехмерную модель как вероятностное распределение двоичных переменных на трехмерной воксельной сетке, используя - **Convolutional Deep Belief Network** (CDBN) (Визуализация, управляемая данными:mag_right: - да и уровни представлены довольно таки интересно, от простых до самых сложных по форме объектов: разработка самих авторов CDBN - лучше почитать по-подробнее).
 
-  <p align="center"><img width="70%" src="https://github.com/aktumar/3D_reconstruction/blob/main/media/3D_ShapeNets_2.png" /></p>
+  <p align="center"><img width="30%" src="https://github.com/aktumar/3D_reconstruction/blob/main/media/3D_ShapeNets_2.png" /></p>
 
   
 

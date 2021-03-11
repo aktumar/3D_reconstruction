@@ -31,3 +31,8 @@
 <a name="6"/>
 
 [10] F. G. Callari and F. P. Ferrie. Active object recognition: Looking for differences. IJCV, 2001. [back](https://github.com/aktumar/3D_reconstruction/blob/main/README.md#6)
+
+<a name="7"/>
+
+[11] G. E. Hinton, S. Osindero, and Y.-W. Teh. A fast learning algorithm for deep belief nets. Neural computation, 2006. [back](https://github.com/aktumar/3D_reconstruction/blob/main/README.md#7)
+

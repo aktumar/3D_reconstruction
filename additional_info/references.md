@@ -36,3 +36,7 @@
 
 [11] G. E. Hinton, S. Osindero, and Y.-W. Teh. A fast learning algorithm for deep belief nets. Neural computation, 2006. [back](https://github.com/aktumar/3D_reconstruction/blob/main/README.md#7)
 
+<a name="8"/>
+
+[12] James Coughlan, Alan Yuille. Manhattan World: Orientation and Outlier Detection by Bayesian Inference. Submitted to Neural Computation. 2003. [[link](https://www.cs.jhu.edu/~ayuille/pubs/ucla/A179_jcoughlan_NC2003.pdf)] [back](https://github.com/aktumar/3D_reconstruction/blob/main/README.md#8)
+

@@ -209,6 +209,12 @@
 
 - COM - Вокселизация облака точек
 
+**[[статья](https://arxiv.org/pdf/1812.03828.pdf)] Occupancy Networks: Learning 3D Reconstruction in Function Space [[видео](https://www.youtube.com/watch?v=9r9TDr2Aq5A)]**
+
+**[[статья](https://arxiv.org/pdf/1905.07259.pdf)] Texture Fields: Learning Texture Representations in Function Space [[видео](https://www.youtube.com/watch?v=9r9TDr2Aq5A)]**
+
+**[[статья](http://www.cvlibs.net/publications/Niemeyer2019ICCV.pdf)] Occupancy Flow: 4D Reconstruction by Learning Particle Dynamics [[видео](https://www.youtube.com/watch?v=9r9TDr2Aq5A)]**
+
 #### 2020
 
 **[[статья](https://arxiv.org/pdf/2001.06280v1.pdf)] Review: deep learning on 3D point clouds**
@@ -238,6 +244,8 @@
 
 
 - COM - 
+
+**[[статья](https://arxiv.org/pdf/1912.07372.pdf)] Differentiable Volumetric Rendering: Learning Implicit 3D Representations without 3D Supervision [[видео](https://www.youtube.com/watch?v=9r9TDr2Aq5A)]**
 
 <a name="links" />
 
@@ -297,7 +305,53 @@
 
 **[[видео](https://www.youtube.com/watch?v=-mQ60wNgKrQ&feature=youtu.be)] (NOV2020) The Beirut Port Explosions (English)**
 
+**[[видео](https://youtu.be/9r9TDr2Aq5A)] (JUN2020) Learning 3D Reconstruction in Function Space (Long Version)**
 
+<a name="7" />
+
+- COM1 - Исследование нейронных неявных представлений. То что я знала до этого (воксели и облака точек) - плюс сетка(меш) - является традиционной концепцией трехмерного представления явным образом.
+
+- COM2 - *What is a good output representation?*
+
+  `Voxels`:
+
+  - Discretization of 3D space into regular grid
+  - Easy to process with neural networks
+  - Cubic memory O(n^3) - limited resolurion
+  - Manhattan world bias [[12](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#8)]
+
+  `Points`: 
+
+  - Discretization of surface into 3D points
+  - Does not model connectivaly / topology
+  - Limited number of points
+  - Global shape description
+
+  `Meshes`:
+
+  - Discretization into vertices and faces
+  - Limited number of vertices / granularity 
+  - Requires class-specific template - or -
+  - Leads to self-intersections
+
+- COM3 - *About work in video*:
+
+  `Purpose`:
+
+  - Implicit representation - NO discretization
+  - Arbitrary topology & resolution
+  - Low memory footprint
+  - Not restricted to specific class
+
+  `Key idea`:
+
+  - Do not represent 3D shape explicitly
+  - Instead, consider surface implicitly as decision boundary of a non-linear classifier
+  - [0, 1] - outside/inside
+
+  `Network architecture`:
+
+  - 
 
 <a name="stackoveflow" />
 

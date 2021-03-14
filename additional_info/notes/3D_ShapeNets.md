@@ -109,30 +109,23 @@
 
 
 
-**3D ShapeNets: A Deep Representation for Volumetric Shapes**
+
+
+```
+ShapeNets: A Deep Representation for Volumetric Shapes
 
 1. Introduction
-
 2. Related Work
-
 3. 3D ShapeNets
-
 4. 2.5D Recognition and Reconstruction
-
    4.1. View-based Sampling
-
    4.2. Next-Best-View Prediction
-
 5. ModelNet: A Large-scale 3D CAD Dataset
-
 6. Experiments
-
    6.1. 3D Shape Classification and Retrieval
-
    6.2. View-based 2.5D Recognition
-
    6.3. Next-Best-View Prediction
-
 7. Conclusion
-
    References
+```
+

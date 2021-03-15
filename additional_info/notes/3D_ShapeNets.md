@@ -1,3 +1,23 @@
+```
+ShapeNets: A Deep Representation for Volumetric Shapes
+
+1. Introduction
+2. Related Work
+3. 3D ShapeNets
+4. 2.5D Recognition and Reconstruction
+   4.1. View-based Sampling
+   4.2. Next-Best-View Prediction
+5. ModelNet: A Large-scale 3D CAD Dataset
+6. Experiments
+   6.1. 3D Shape Classification and Retrieval
+   6.2. View-based 2.5D Recognition
+   6.3. Next-Best-View Prediction
+7. Conclusion
+   References
+```
+
+
+
 <a name="1" />
 
 - COM - **Компьютерное зрение** было создано 50 лет назад (:mag_right:). Раньше трехмерное представление было не так уж популярно в распознавании объектов. Но появление датчиков глубины в 2.5D дали толчок на использование карт глубины (depth map) в распознавании объектов, такие как Sliding Shapes [[1](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#1)]. Такие датчики давали точную глубину, что сыграло важную роль для трехмерного представления в распознавании. Ну и в результате стало важно иметь трехмерное представление в современных системах компьютерного зрения. Впрочем и тут возникают другие проблемы, например, как выглядит невидимая часть модели?  Человек уже, как правило, имеет предварительное знание об определенных предметах. К примеру, ему не обязательно видеть, как выглядит обратная сторона вазы/машины и т.д., как выглядит здание, прикрытое растущим деревом, как выглядит человек со спины.. 
@@ -108,24 +128,4 @@
 - COM9 - В трехмерной области **воксели** способствуют снижению неопределенности распознавания 
 
 
-
-
-
-```
-ShapeNets: A Deep Representation for Volumetric Shapes
-
-1. Introduction
-2. Related Work
-3. 3D ShapeNets
-4. 2.5D Recognition and Reconstruction
-   4.1. View-based Sampling
-   4.2. Next-Best-View Prediction
-5. ModelNet: A Large-scale 3D CAD Dataset
-6. Experiments
-   6.1. 3D Shape Classification and Retrieval
-   6.2. View-based 2.5D Recognition
-   6.3. Next-Best-View Prediction
-7. Conclusion
-   References
-```
 

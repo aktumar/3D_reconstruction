@@ -97,6 +97,7 @@ ShapeNets: A Deep Representation for Volumetric Shapes
   П.С. Каждый фильтр свертки связан характеристическими каналами предыдущего слоя. Как только нижний уровень изучен, веса фиксируются, и скрытые активации передаются на следующий уровень в качестве входных данных. (`Wake sleep algorithm` [[11](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#7)])
 
   - В фазе пробуждения они распространяют данные снизу вверх и используют активации для сбора *положительного* обучающего сигнала
+  
 - В фазе сна они поддерживают постоянную цепочку на самом верхнем уровне и распространяют данные сверху вниз для сбора `отрицательного` обучающего сигнала
   
   П.С.С. The top layer forms an associative memory DBN as indicated by the bi-directional arrows, while all the other layer connections are directed top-down.
@@ -119,6 +120,8 @@ ShapeNets: A Deep Representation for Volumetric Shapes
   4. Результат
 
   То есть карта глубины 2.5D сначала преобразуется в объемное представление, классифицируется в воксели (free space, surface, occluded)
+
+  
 
   <a name="6" />
 

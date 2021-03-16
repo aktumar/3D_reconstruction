@@ -111,7 +111,7 @@ ShapeNets: A Deep Representation for Volumetric Shapes
   
 - **COM8** - После обучения CDBN, модель изучает joint distribution - p(x,y), где x - воксельные данные, y - метки категории объекта y ∈ {1, · · ·, K}. По сути модель обучается на трехмерных фигурах, но она способна также распознавать объекты на картах глубины 2.5D (например датчики RGB-D). В статье это называют **View-based 2.5D Object Recognition**.
 
-  <p align="center"><img width="50%" src="https://github.com/aktumar/3D_reconstruction/blob/main/media/3D_ShapeNets_3.png" /></p>
+  <p align="center"><img width="100%" src="https://github.com/aktumar/3D_reconstruction/blob/main/media/3D_ShapeNets_3.png" /></p>
 
   1. Иллюстрация физического объекта в трехмерном пространстве
   2. Одно изображение глубины со спинки стула

@@ -146,6 +146,12 @@
 
 **[[1](https://habr.com/ru/company/top3dshop/blog/511026/)] Обзор программного обеспечения для 3D-сканирования и обработки данных**
 
+**[[2](https://habr.com/ru/post/446872/)] Изучаем OpenCV на StereoPi: карта глубин по видео [[GitHub](https://github.com/realizator/stereopi-tutorial)]**
+
+**[[3](https://habr.com/ru/post/458458/)] Камеры глубины — тихая революция (когда роботы будут видеть) Часть 2**
+
+
+
 <a name="github" />
 
 ### GitHub:

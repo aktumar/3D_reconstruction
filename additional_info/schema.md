@@ -1,7 +1,7 @@
 # UNRELATED SCHEMAS
 
 ```mermaid
-graph TD;    
+graph LR;    
 A[Трехмерное представлние]--> B[Неявным образом];    
 A-->C[Явным образом];    
 C-->D[Воксели];

@@ -34,11 +34,7 @@ ShapeNets: A Deep Representation for Volumetric Shapes
 
 - **COM3** - **3D ShapeNets** поддерживает распознавание образов по карте глубины 2.5D и просматривать планирование распознавания объектов, изучает распределение сложных трехмерных форм по разным категориям объектов и произвольным позициям на основе необработанных - CAD data. (We demonstrate the strength of our model at capturing complex object shapes by drawing samples from the model :mag_right:) 3D ShapeNets хорошо обобщается на данные реального мира из набора данных глубины NYU [[5](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#3)].
 
-  
-
   <p align="center"><img width="50%" src="https://github.com/aktumar/3D_reconstruction/blob/main/media/3D_ShapeNets.png" /></p>
-
-  
 
   IN - Карта глубины объекта, которая в свою очередь проходит предварительное преобразование в трехмерное представление
 
@@ -132,10 +128,16 @@ ShapeNets: A Deep Representation for Volumetric Shapes
 
 - **COM9** - В статье затрагивается проблема **`Next-Best-View`** [[7](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#4)] - планирование просмотра на основе текущего наблюдения - можно увидеть ссылки на другие работы с различными вариантами решения (к примеру, большинство работ `основывается на цветовой информации изображения`, но их проблема в том что они работают исключительно с двумерным представлением. Почитать про: распознавание на уровне экземпляра без внутриклассовой дисперсии - instance-level recognition with no intra-class variance :mag_right:; на точном уровне вокселов - precise voxel level :mag_right:). Датчик распознавания активных объектов [[10](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#6)] может перемещаться к новым точкам обзора, в отличие от распознавания статических объектов.
 
+  <p align="center"><img width="50%" src="https://github.com/aktumar/3D_reconstruction/blob/main/media/3D_ShapeNets_4.png" /></p>
+
+  Можно выбрать множество форм для генерации гипотез фактической модели, и визуализировать каждую гипотезу для получения карт глубины c разных точек наблюдения. Поскольку фактическая форма частично неизвестна, эта область галлюцинируется из модели. 
+
   
-
-  IN - Наблюдаемые воксели /-x_0-/ неизвестного объекта, список возможных перемещений камеры в пространстве /-{V^i}-/, где выбирается более подходящий вариант для уменьшения неопределенности распознавания. При этом имея все те же /-x_0-/, от этого достоверность не растет. [[:heavy_division_sign:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/formulations.md#form1)]
-
+  
+  
+  
+  IN - Наблюдаемые воксели /-x_0-/ неизвестного объекта, список возможных перемещений камеры в пространстве /-{V^i}-/, где выбирается более подходящий вариант для уменьшения неопределенности распознавания. При этом имея все те же /-x_0-/, от этого достоверность не растет. (Формула на 5 стр.) 
+  
   OUT - 
 
 

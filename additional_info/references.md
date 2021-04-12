@@ -40,3 +40,7 @@
 
 [12] James Coughlan, Alan Yuille. Manhattan World: Orientation and Outlier Detection by Bayesian Inference. Submitted to Neural Computation. 2003. [[link](https://www.cs.jhu.edu/~ayuille/pubs/ucla/A179_jcoughlan_NC2003.pdf)] [back](https://github.com/aktumar/3D_reconstruction/blob/main/README.md#8)
 
+<a name="9"/>
+
+[13] P. Shilane, P. Min, M. Kazhdan, and T. Funkhouser. The princeton shape benchmark. In Shape Modeling Applications, 2004. [back](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/3D_ShapeNets.md#9)
+

@@ -1,7 +1,7 @@
-| Algorithm               | Description | Link |
-| ----------------------- | ----------- | ---- |
-| Depth                   |             |      |
-| NN                      |             |      |
-| ICP                     |             |      |
-| 3D ShapeNets            |             |      |
-| 3D ShapeNets fine-tuned |             |      |
+| №    | Algorithm               | Description | Link |
+| ---- | ----------------------- | ----------- | ---- |
+| 1    | Depth                   |             |      |
+| 2    | NN                      |             |      |
+| 3    | ICP                     |             |      |
+| 4    | 3D ShapeNets            |             |      |
+| 5    | 3D ShapeNets fine-tuned |             |      |

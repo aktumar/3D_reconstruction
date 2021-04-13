@@ -62,7 +62,7 @@ ShapeNets: A Deep Representation for Volumetric Shapes
 
   Затем авторы вручную проверили каждую 3D-модель и удалили нерелевантные объекты из каждой модели САПР (например, пол, миниатюрное изображение, человека, стоящего рядом с объектом и т.д.), чтобы каждая модель сетки содержала только один объект, принадлежащий помеченной категории. Они также отказались от нереалистичных (чрезмерно упрощенных моделей или содержащих только изображения объекта) и повторяющихся моделей. Новый набор данных ModelNet содержит 151 128 3D-моделей САПР (660 категорий объектов).
   
-  <p align="center"><img width="100%" src="https://github.com/aktumar/3D_reconstruction/blob/main/media/3D_ShapeNets_5.png" /></p>
+  <p align="center"><img width="80%" src="https://github.com/aktumar/3D_reconstruction/blob/main/media/3D_ShapeNets_5.png" /></p>
 
 
 

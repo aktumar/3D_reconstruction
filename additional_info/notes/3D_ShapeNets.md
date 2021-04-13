@@ -58,9 +58,11 @@ ShapeNets: A Deep Representation for Volumetric Shapes
 
 - **COM4** - Для обучения собственной модели 3D ShapeNets был создан большой **датасет под названием ModelNet** (a large-scale object dataset of 3D computer graphics CAD models). В статье говорится что данное трехмерное представление позволяет повысить производительность по сравнению с современными технологиями (точнее современными они были 2015 годах, ведь сейчас считается что трехмерное представление (voxel) уже не так актуально - Возможно :mag_right:) 
 
-  Альтернатива - [[13](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#9)], но с меньшим количеством данных. 
+  Альтернатива - [[13](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#9)], но с меньшим количеством данных, 3D CAD models из 3D Warehouse, Yobi3D search engine indexing 261 CAD model websites, SUN database [[14](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#9)] (660 категорий, 20 экземпляров на категорию), Princeton Shape Benchmark [[15](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#9)]. After downloading, we remove miscategorized models using Amazon Mechanical Turk.
 
+  Затем авторы вручную проверили каждую 3D-модель и удалили нерелевантные объекты из каждой модели САПР (например, пол, миниатюрное изображение, человека, стоящего рядом с объектом и т.д.), чтобы каждая модель сетки содержала только один объект, принадлежащий помеченной категории. Они также отказались от нереалистичных (чрезмерно упрощенных моделей или содержащих только изображения объекта) и повторяющихся моделей. Новый набор данных ModelNet содержит 151 128 3D-моделей САПР (660 категорий объектов).
   
+  <p align="center"><img width="100%" src="https://github.com/aktumar/3D_reconstruction/blob/main/media/3D_ShapeNets_5.png" /></p>
 
 
 

@@ -44,3 +44,6 @@
 
 [13] P. Shilane, P. Min, M. Kazhdan, and T. Funkhouser. The princeton shape benchmark. In Shape Modeling Applications, 2004. [back](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/3D_ShapeNets.md#9)
 
+[14] J. Xiao, J. Hays, K. A. Ehinger, A. Oliva, and A. Torralba. SUN database: Large-scale scene recognition from abbey to zoo. In CVPR, 2010. [back](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/3D_ShapeNets.md#9)
+
+[15] P. Shilane, P. Min, M. Kazhdan, and T. Funkhouser. The princeton shape benchmark. In Shape Modeling Applications, 2004. [back](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/3D_ShapeNets.md#9)

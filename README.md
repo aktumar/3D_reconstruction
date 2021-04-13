@@ -13,6 +13,8 @@
 
 ## Содержание
 
+- [Общие выводы (после прочтения большого количества материала)](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/general.md)
+
 - [Статьи](#papers)
   - [Обзорные](#review)
   - [Датасеты](#dataset)
@@ -67,6 +69,10 @@
 ### Датасеты
 
 **[[статья](https://arxiv.org/pdf/1709.06158.pdf)] (SEP2017) Matterport3D: Learning from RGB-D Data in Indoor Environments [[сайт](https://niessner.github.io/Matterport/)] [[код](https://github.com/niessner/Matterport)]**
+
+**Princeton ModelNet [[сайт](https://modelnet.cs.princeton.edu/)]**
+
+- **COM1** - Ссылки на куча алгоритмов, которые использовали этот датасет для обучения.
 
 <a name="theory"/>
 

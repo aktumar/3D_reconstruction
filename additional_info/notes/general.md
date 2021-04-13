@@ -1,4 +1,5 @@
 ```markdown
+
 | Algorithm | Description | Link |
 | --- | --- | --- |
 | Depth |  |  |
@@ -21,6 +22,7 @@
 
 
 ```
+
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
@@ -33,6 +35,7 @@
 
 
 ```
+
 Markdown | Less | Pretty
 --- | --- | ---
 *Still* | `renders` | **nicely**

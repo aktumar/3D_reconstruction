@@ -48,11 +48,11 @@
 
 **[[статья](https://arxiv.org/pdf/1906.06543.pdf)] (NOV2019) Image-based 3D Object Reconstruction: State-of-the-Art and Trends in the Deep Learning Era**
 
-**[[статья](https://arxiv.org/pdf/1906.06113.pdf)] (JUN2019) A Survey on Deep Learning Architectures for Image-based Depth Reconstruction** [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/A_Survey_on_DLA_for_Imagebased_DepthRec.md)]
+**[[статья](https://arxiv.org/pdf/1906.06113.pdf)] (JUN2019) A Survey on Deep Learning Architectures for Image-based Depth Reconstruction [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/A_Survey_on_DLA_for_Imagebased_DepthRec.md)]** 
 
 **[[статья](https://vision.cs.princeton.edu/projects/2012/3DnotLow/report.pdf)] 3D reconstruction is not just a low-level task: retrospect and survey**
 
-**[[статья](https://arxiv.org/pdf/2006.02535.pdf)] (JUN2020) A Survey on Deep Learning Techniques for Stereo-based Depth Estimation**
+**[[статья](https://arxiv.org/pdf/2006.02535.pdf)] (JUN2020) A Survey on Deep Learning Techniques for Stereo-based Depth Estimation [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/A_Survey_on_DLT_for_Stereo_based_Depth_Estimation.md)] **
 
 **[[статья](https://arxiv.org/pdf/2103.01415v1.pdf)] (MAR2021) A Survey of Deep Learning Techniques for Weed Detection from Images [[код](https://github.com/AlexOlsen/DeepWeeds)]**
 

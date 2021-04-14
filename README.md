@@ -28,6 +28,7 @@
   - [Stackoveflow:](#stackoveflow)
   - [Разное:](#other)
   - [Платформы:](#platform)
+  - [Интересные авторы (на заметку):](#author)
 
 
 
@@ -51,7 +52,9 @@
 
 **[[статья](https://vision.cs.princeton.edu/projects/2012/3DnotLow/report.pdf)] 3D reconstruction is not just a low-level task: retrospect and survey**
 
-**[[статья](https://arxiv.org/pdf/1906.06113v1.pdf)] (JUN2019) A Survey on Deep Learning Architectures for Image-based Depth Reconstruction**
+**[[статья](https://arxiv.org/pdf/2006.02535.pdf)] (JUN2020) A Survey on Deep Learning Techniques for Stereo-based Depth Estimation**
+
+**[[статья](https://arxiv.org/pdf/2103.01415v1.pdf)] (MAR2021) A Survey of Deep Learning Techniques for Weed Detection from Images [[код](https://github.com/AlexOlsen/DeepWeeds)]**
 
 
 
@@ -197,3 +200,8 @@
 
 **[Agisoft Metashape](https://www.agisoft.com/)**
 
+<a name="author" />
+
+### Интересные авторы (на заметку):
+
+[Hamid Laga](https://paperswithcode.com/author/hamid-laga)

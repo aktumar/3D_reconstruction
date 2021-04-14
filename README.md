@@ -43,26 +43,15 @@
 
 Общий обзор на исследование, литературный обзор, ссылки на разные тематические статьи других авторов.
 
-- **[[статья](https://arxiv.org/pdf/1906.06543.pdf)] (NOV2019) Image-based 3D Object Reconstruction: State-of-the-Art and Trends in the Deep Learning Era**
+**[[статья](https://arxiv.org/pdf/1906.06543.pdf)] (NOV2019) Image-based 3D Object Reconstruction: State-of-the-Art and Trends in the Deep Learning Era**
+
+**[[статья](https://arxiv.org/pdf/1906.06113.pdf)] (JUN2019) A Survey on Deep Learning Architectures for Image-based Depth Reconstruction** [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/A_Survey_on_DLA_for_Imagebased_DepthRec.md)]
+
+**[[статья](https://vision.cs.princeton.edu/projects/2012/3DnotLow/report.pdf)] 3D reconstruction is not just a low-level task: retrospect and survey**
+
+**[[статья](https://arxiv.org/pdf/1906.06113v1.pdf)] (JUN2019) A Survey on Deep Learning Architectures for Image-based Depth Reconstruction**
 
 
-
-
-
-- **[[статья](https://arxiv.org/pdf/1906.06113.pdf)] (JUN2019) A Survey on Deep Learning Architectures for Image-based Depth Reconstruction**
-  - COM - Обзор на все существующие методы - 2015-2019 года, 149 статьи для literarure view, 88 методов для 3d reconstruction (+ 6-8 методов для human face), математическая формулировка, таксономия: и много другое. 
-
-
-
-
-
-- **[[статья](https://vision.cs.princeton.edu/projects/2012/3DnotLow/report.pdf)] 3D reconstruction is not just a low-level task: retrospect and survey**
-
-
-
-
-
-- **[[статья](https://arxiv.org/pdf/1906.06113v1.pdf)] (JUN2019) A Survey on Deep Learning Architectures for Image-based Depth Reconstruction**
 
 <a name="dataset" />
 
@@ -71,8 +60,6 @@
 **[[статья](https://arxiv.org/pdf/1709.06158.pdf)] (SEP2017) Matterport3D: Learning from RGB-D Data in Indoor Environments [[сайт](https://niessner.github.io/Matterport/)] [[код](https://github.com/niessner/Matterport)]**
 
 **Princeton ModelNet [[сайт](https://modelnet.cs.princeton.edu/)]**
-
-- **COM1** - Ссылки на куча алгоритмов, которые использовали этот датасет для обучения.
 
 <a name="theory"/>
 
@@ -104,8 +91,6 @@
 
 **[[статья](https://www.dgpf.de/src/tagung/jt2019/proceedings/proceedings/papers/23_3LT2019_Schmohl_Soergel.pdf)] ALS Klassifizierung mit Submanifold Sparse Convolutional Networks [[сайт](https://www.ifp.uni-stuttgart.de/en/research/remote_sensing/als_point_cloud_classification/)]**
 
-- COM - Вокселизация облака точек
-
 **[[статья](https://arxiv.org/pdf/1812.03828.pdf)] Occupancy Networks: Learning 3D Reconstruction in Function Space [[видео](https://www.youtube.com/watch?v=9r9TDr2Aq5A)]**
 
 **[[статья](https://arxiv.org/pdf/1905.07259.pdf)] Texture Fields: Learning Texture Representations in Function Space [[видео](https://www.youtube.com/watch?v=9r9TDr2Aq5A)]**
@@ -126,21 +111,7 @@
 
 **[[статья](https://arxiv.org/pdf/2010.04595.pdf)] GRF: LEARNING A GENERAL RADIANCE FIELD FOR 3D SCENE REPRESENTATION AND RENDERING [[GitHub](https://github.com/alextrevithick/GRF)]**
 
-**[[статья](https://arxiv.org/pdf/2012.03927.pdf)] NeRV: Neural Reflectance and Visibility Fields for Relighting and View Synthesis [[сайт](https://pratulsrinivasan.github.io/nerv/)]**
-
-- IN - набор изображений, с непрерывным известным освещением.
-
-
-
-
-
-- OUT - трехмерное представление объекта, с возможностью произвольного освещения и смены точки обзора
-
-
-
-
-
-- COM - 
+**[[статья](https://arxiv.org/pdf/2012.03927.pdf)] NeRV: Neural Reflectance and Visibility Fields for Relighting and View Synthesis [[сайт](https://pratulsrinivasan.github.io/nerv/)] [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/NeRV.md)]** 
 
 **[[статья](https://arxiv.org/pdf/1912.07372.pdf)] Differentiable Volumetric Rendering: Learning Implicit 3D Representations without 3D Supervision [[видео](https://www.youtube.com/watch?v=9r9TDr2Aq5A)]**
 
@@ -166,11 +137,7 @@
 
 **[[GitHub](https://github.com/Yochengliu/awesome-point-cloud-analysis#---recent-papers-from-2017)] awesome-point-cloud-analysis**
 
-- COM - 
-
 **[[GitHub](https://github.com/aktumar/3D-Machine-Learning)] 3D-Machine-Learning**
-
-- COM - 
 
 <a name="youtube" />
 
@@ -206,53 +173,7 @@
 
 **[[видео](https://www.youtube.com/watch?v=eCDBA_SbxCE)] (JUL2020) 3D Deep Learning with PyTorch3D by Nikhila Ravi**
 
-**[[видео](https://youtu.be/9r9TDr2Aq5A)] (JUN2020) Learning 3D Reconstruction in Function Space (Long Version)**
-
-<a name="8" />
-
-- COM1 - Исследование нейронных неявных представлений. То что я знала до этого (воксели и облака точек) - плюс сетка(меш) - является традиционной концепцией трехмерного представления явным образом.
-
-- COM2 - *What is a good output representation?*
-
-  `Voxels`:
-
-  - Discretization of 3D space into regular grid
-  - Easy to process with neural networks
-  - Cubic memory O(n^3) - limited resolurion
-  - Manhattan world bias [[12](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#8)]
-
-  `Points`: 
-
-  - Discretization of surface into 3D points
-  - Does not model connectivaly / topology
-  - Limited number of points
-  - Global shape description
-
-  `Meshes`:
-
-  - Discretization into vertices and faces
-  - Limited number of vertices / granularity 
-  - Requires class-specific template - or -
-  - Leads to self-intersections
-
-- COM3 - *About work in video*:
-
-  `Purpose`:
-
-  - Implicit representation - NO discretization
-  - Arbitrary topology & resolution
-  - Low memory footprint
-  - Not restricted to specific class
-
-  `Key idea`:
-
-  - Do not represent 3D shape explicitly
-  - Instead, consider surface implicitly as decision boundary of a non-linear classifier
-  - [0, 1] - outside/inside
-
-  `Network architecture`:
-
-  - Encoder - 
+**[[видео](https://youtu.be/9r9TDr2Aq5A)] (JUN2020) Learning 3D Reconstruction in Function Space (Long Version)** [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/Learning_3D_Rec_in_Function_Space.md)]
 
 **[[видео](https://www.youtube.com/watch?v=-mQ60wNgKrQ&feature=youtu.be)] (NOV2020) The Beirut Port Explosions (English)**
 
@@ -266,9 +187,7 @@
 
 ### Разное:
 
-**[[сайт](https://machinelearningmastery.com/a-gentle-introduction-to-pix2pix-generative-adversarial-network/)] A Gentle Introduction to Pix2Pix Generative Adversarial Network**
-
-- COM - Про систему GAN
+**[[сайт](https://machinelearningmastery.com/a-gentle-introduction-to-pix2pix-generative-adversarial-network/)] A Gentle Introduction to Pix2Pix Generative Adversarial Network (GAN)**
 
 <a name="platform" />
 

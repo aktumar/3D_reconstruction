@@ -9,6 +9,8 @@
 >
 > :thought_balloon: - Объемные заметки
 >
+> :ballot_box_with_check: - Изученный материал​
+>
 > /-...-/ - Переменная или формула
 
 ## Содержание
@@ -69,7 +71,7 @@
 
 **[[статья](https://abhishekkar.info/categoryshapes.pdf)] Category-Specific Object Reconstruction from a Single Image**
 
-**[[статья](http://3dshapenets.cs.princeton.edu/paper.pdf)] 3D ShapeNets: A Deep Representation for Volumetric Shapes [[сайт](http://3dshapenets.cs.princeton.edu/)] [[:heavy_division_sign:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/formulations.md#form1)] [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/3D_ShapeNets.md)]**
+**[[статья](http://3dshapenets.cs.princeton.edu/paper.pdf)] :ballot_box_with_check: 3D ShapeNets: A Deep Representation for Volumetric Shapes [[сайт](http://3dshapenets.cs.princeton.edu/)] [[:heavy_division_sign:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/formulations.md#form1)] [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/3D_ShapeNets.md)]**
 
 #### 2016
 

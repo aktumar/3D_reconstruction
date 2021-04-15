@@ -46,13 +46,13 @@
 
 Общий обзор на исследование, литературный обзор, ссылки на разные тематические статьи других авторов.
 
-**[[статья](https://arxiv.org/pdf/1906.06543.pdf)] (NOV2019) Image-based 3D Object Reconstruction: State-of-the-Art and Trends in the Deep Learning Era [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/Image_based_3D_Object_Rec_State_of_the_Art.md)]** 
+**[[статья](https://arxiv.org/pdf/1906.06543.pdf)] (NOV2019) Image-based 3D Object Reconstruction: State-of-the-Art and Trends in the Deep Learning Era [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/papers/Image_based_3D_Object_Rec_State_of_the_Art.md)]** 
 
-**[[статья](https://arxiv.org/pdf/1906.06113.pdf)] (JUN2019) A Survey on Deep Learning Architectures for Image-based Depth Reconstruction [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/A_Survey_on_DLA_for_Imagebased_DepthRec.md)]** 
+**[[статья](https://arxiv.org/pdf/1906.06113.pdf)] (JUN2019) A Survey on Deep Learning Architectures for Image-based Depth Reconstruction [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/papers/A_Survey_on_DLA_for_Imagebased_DepthRec.md)]** 
 
 **[[статья](https://vision.cs.princeton.edu/projects/2012/3DnotLow/report.pdf)] 3D reconstruction is not just a low-level task: retrospect and survey**
 
-**[[статья](https://arxiv.org/pdf/2006.02535.pdf)] (JUN2020) A Survey on Deep Learning Techniques for Stereo-based Depth Estimation [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/A_Survey_on_DLT_for_Stereo_based_Depth_Estimation.md)]**
+**[[статья](https://arxiv.org/pdf/2006.02535.pdf)] (JUN2020) A Survey on Deep Learning Techniques for Stereo-based Depth Estimation [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/papers/A_Survey_on_DLT_for_Stereo_based_Depth_Estimation.md)]**
 
 **[[статья](https://arxiv.org/pdf/2103.01415v1.pdf)] (MAR2021) A Survey of Deep Learning Techniques for Weed Detection from Images [[код](https://github.com/AlexOlsen/DeepWeeds)]**
 
@@ -74,7 +74,7 @@
 
 **[[статья](https://abhishekkar.info/categoryshapes.pdf)] Category-Specific Object Reconstruction from a Single Image**
 
-**[[статья](http://3dshapenets.cs.princeton.edu/paper.pdf)] :ballot_box_with_check: 3D ShapeNets: A Deep Representation for Volumetric Shapes [[сайт](http://3dshapenets.cs.princeton.edu/)] [[:heavy_division_sign:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/formulations.md#form1)] [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/3D_ShapeNets.md)]**
+**[[статья](http://3dshapenets.cs.princeton.edu/paper.pdf)] :ballot_box_with_check: 3D ShapeNets: A Deep Representation for Volumetric Shapes [[сайт](http://3dshapenets.cs.princeton.edu/)] [[:heavy_division_sign:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/formulations.md#form1)] [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/papers/3D_ShapeNets.md)]**
 
 #### 2016
 
@@ -116,7 +116,7 @@
 
 **[[статья](https://arxiv.org/pdf/2010.04595.pdf)] GRF: LEARNING A GENERAL RADIANCE FIELD FOR 3D SCENE REPRESENTATION AND RENDERING [[GitHub](https://github.com/alextrevithick/GRF)]**
 
-**[[статья](https://arxiv.org/pdf/2012.03927.pdf)] NeRV: Neural Reflectance and Visibility Fields for Relighting and View Synthesis [[сайт](https://pratulsrinivasan.github.io/nerv/)] [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/NeRV.md)]** 
+**[[статья](https://arxiv.org/pdf/2012.03927.pdf)] NeRV: Neural Reflectance and Visibility Fields for Relighting and View Synthesis [[сайт](https://pratulsrinivasan.github.io/nerv/)] [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/papers/NeRV.md)]** 
 
 **[[статья](https://arxiv.org/pdf/1912.07372.pdf)] Differentiable Volumetric Rendering: Learning Implicit 3D Representations without 3D Supervision [[видео](https://www.youtube.com/watch?v=9r9TDr2Aq5A)]**
 
@@ -178,7 +178,7 @@
 
 **[[видео](https://www.youtube.com/watch?v=eCDBA_SbxCE)] (JUL2020) 3D Deep Learning with PyTorch3D by Nikhila Ravi**
 
-**[[видео](https://youtu.be/9r9TDr2Aq5A)] (JUN2020) Learning 3D Reconstruction in Function Space (Long Version)** [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/Learning_3D_Rec_in_Function_Space.md)]
+**[[видео](https://youtu.be/9r9TDr2Aq5A)] (JUN2020) Learning 3D Reconstruction in Function Space (Long Version) [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/youtube/Learning_3D_Rec_in_Function_Space.md)]** 
 
 **[[видео](https://www.youtube.com/watch?v=-mQ60wNgKrQ&feature=youtu.be)] (NOV2020) The Beirut Port Explosions (English)**
 

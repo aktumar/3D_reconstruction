@@ -1,19 +1,20 @@
 ```
 ShapeNets: A Deep Representation for Volumetric Shapes
 
-1. Introduction
-2. Related Work
-3. 3D ShapeNets
-4. 2.5D Recognition and Reconstruction
-   4.1. View-based Sampling
-   4.2. Next-Best-View Prediction
-5. ModelNet: A Large-scale 3D CAD Dataset
-6. Experiments
-   6.1. 3D Shape Classification and Retrieval
-   6.2. View-based 2.5D Recognition
-   6.3. Next-Best-View Prediction
-7. Conclusion
-   References
+COM1: Компьютерное зрение
+COM2: Трехмерное представление
+COM3: 3D ShapeNets
+COM4: Датасет - ModelNet
+COM5: Related works
+
+COM6: Подходы применяемые для 2D формы
+COM7: Convolutional Deep Belief Network (CDBN)
+COM8: View-based 2.5D Object Recognition
+COM9: Next-Best-View
+COM10: Воксели
+
+COM11: Эксперимент
+
 ```
 
 
@@ -166,3 +167,24 @@ ShapeNets: A Deep Representation for Volumetric Shapes
 
 
 - **COM11** - Для **эксперимента** были использованы 40 категорий (100 уникальных экземпляров в каждой категорий) из ModelNet. Затем они  дополняли данные, поворачивая каждую модель на 30 градусов (:mag_right:), получив 12 поз. На обучение и настройку ушло около 2 дней. Характеристика стационарного компьютера: Intel XEON E5-2690 CPU и NVIDIA K40c GPU. 
+
+
+
+```
+ShapeNets: A Deep Representation for Volumetric Shapes
+
+1. Introduction
+2. Related Work
+3. 3D ShapeNets
+4. 2.5D Recognition and Reconstruction
+   4.1. View-based Sampling
+   4.2. Next-Best-View Prediction
+5. ModelNet: A Large-scale 3D CAD Dataset
+6. Experiments
+   6.1. 3D Shape Classification and Retrieval
+   6.2. View-based 2.5D Recognition
+   6.3. Next-Best-View Prediction
+7. Conclusion
+   References
+```
+

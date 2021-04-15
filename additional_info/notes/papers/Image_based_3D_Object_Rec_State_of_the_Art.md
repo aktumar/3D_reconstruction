@@ -2,6 +2,54 @@
 Image-based 3D Object Reconstruction: State-of-the-Art and Trends in the Deep Learning Era
 
 
+```
+
+<a name="1" />
+
+- **COM1** - 
+
+<a name="2" />
+
+- **COM2** - 
+
+<a name="3" />
+
+- **COM3** - 
+
+<a name="4" />
+
+- **COM4** - 
+
+<a name="5" />
+
+- **COM5** - 
+
+<a name="6" />
+
+- **COM6** - 
+
+<a name="7" />
+
+- **COM7** - 
+
+<a name="8" />
+
+- **COM8** - 
+
+<a name="9" />
+
+- **COM9** - 
+
+<a name="10" />
+
+- **COM10** - 
+
+
+
+```
+Image-based 3D Object Reconstruction: State-of-the-Art and Trends in the Deep Learning Era
+
+
 1 INTRODUCTION
 2 PROBLEM STATEMENT AND TAXONOMY
 3 THE ENCODING STAGE
@@ -57,19 +105,4 @@ Image-based 3D Object Reconstruction: State-of-the-Art and Trends in the Deep Le
 	10.2 Comparison and discussion
 11 FUTURE RESEARCH DIRECTIONS
 12 SUMMARY AND CONCLUDING REMARKS
-
 ```
-
-
-
-<a name="1" />
-
-- **COM1** - 
-
-<a name="2" />
-
-- **COM2** - 
-
-<a name="3" />
-
-- **COM3** - 

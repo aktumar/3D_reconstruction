@@ -1,4 +1,52 @@
+```
+A Survey on Deep Learning Architectures for Image-based Depth Reconstruction
+
 Обзор на все существующие методы - 2015-2019 года, 149 статьи для literarure view, 88 методов для 3d reconstruction (+ 6-8 методов для human face), математическая формулировка, таксономия: и много другое. 
+```
+
+
+
+<a name="1" />
+
+- **COM1** - 
+
+<a name="2" />
+
+- **COM2** - 
+
+<a name="3" />
+
+- **COM3** - 
+
+<a name="4" />
+
+- **COM4** - 
+
+<a name="5" />
+
+- **COM5** - 
+
+<a name="6" />
+
+- **COM6** - 
+
+<a name="7" />
+
+- **COM7** - 
+
+<a name="8" />
+
+- **COM8** - 
+
+<a name="9" />
+
+- **COM9** - 
+
+<a name="10" />
+
+- **COM10** - 
+
+
 
 ```
 A Survey on Deep Learning Architectures for Image-based Depth Reconstruction
@@ -42,22 +90,4 @@ A Survey on Deep Learning Architectures for Image-based Depth Reconstruction
 	6.4 Depth regression techniques
 7 FUTURE RESEARCH DIRECTIONS
 8 CONCLUSION
-
-
-	
-
 ```
-
-
-
-<a name="1" />
-
-- **COM1** - 
-
-<a name="2" />
-
-- **COM2** - 
-
-<a name="3" />
-
-- **COM3** - 

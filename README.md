@@ -16,7 +16,7 @@
 ## Содержание
 
 - [Общие выводы (после прочтения большого количества материала)](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/general.md)
-
+- [Словарь](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/dictionary.md)
 - [Статьи](#papers)
   - [Обзорные](#review)
   - [Датасеты](#dataset)

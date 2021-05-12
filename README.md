@@ -194,6 +194,10 @@
 
 **[[сайт](https://machinelearningmastery.com/a-gentle-introduction-to-pix2pix-generative-adversarial-network/)] A Gentle Introduction to Pix2Pix Generative Adversarial Network (GAN)**
 
+**[[сайт](https://www.scientificamerican.com/article/how-3-d-scanning-is-reinventing-paleoanthropology/)] How 3-D Scanning Is Reinventing Paleoanthropology**
+
+**[[сайт](https://www.nature.com/articles/s41467-021-21326-w)] Unlocking history through automated virtual unfolding of sealed documents imaged by X-ray microtomography**
+
 <a name="platform" />
 
 ### Платформы:

@@ -20,7 +20,7 @@
 
 - COM2 - *Traditional 3D Reconstruction **Pipeline***
 
-  Input Images → Camera poses → Dense Correspondences → 3D reconsruction → Depth Map Fusion → Depth Maps
+  Input Images → Camera poses → Dense Correspondences → 3D reconsruction → Depth Map Fusion → Depth Maps (True image/Ground truth)
 
 
 
@@ -71,6 +71,17 @@
      **Multiresolution IsoSurface Extraction (MISE)** - Build octree by incrementally querying the occupancy network. Extract triangular mesh using marching cubes algorithm.
 
   2. Variational occupancy encoder (Формула)
+  
+  3. Texture Field. 2D image encoder + 3D shape encoder. GAN discriminator → Adversarial Loss (:mag_right:)
+
+
+
+
+
+- COM5 - *Representation power*:
+  - Ground truth
+  - Texture field
+  - Voxelization
 
 
 

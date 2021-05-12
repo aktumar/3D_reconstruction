@@ -18,7 +18,7 @@
 
 
 
-- COM2 - *Traditional 3D Reconstruction Pipeline*
+- COM2 - *Traditional 3D Reconstruction **Pipeline***
 
   Input Images → Camera poses → Dense Correspondences → 3D reconsruction → Depth Map Fusion → Depth Maps
 
@@ -30,6 +30,8 @@
 
   <p align="center"><img width="100%" src="https://github.com/aktumar/3D_reconstruction/blob/main/media/Learning_3D_Rec_in_Function_Space.png" /></p>
 
+  
+  
   | Voxels                                                       | Points                                   | Meshes                                   |
   | ------------------------------------------------------------ | ---------------------------------------- | ---------------------------------------- |
   | Discretization of 3D space into regular grid                 | Discretization of surface into 3D points | Discretization into vertices and faces   |
@@ -56,7 +58,19 @@
   - Instead, consider surface implicitly as decision boundary of a non-linear classifier
   - [0, 1] - outside/inside
 
-  `Network architecture`:
 
-  - Encoder - 
+
+
+
+- COM4 - *Training objective*: 
+
+  1. Occupancy network (Формула)
+
+     <p align="center"><img width="100%" src="https://github.com/aktumar/3D_reconstruction/blob/main/media/Learning_3D_Rec_in_Function_Space_2.png" /></p>
+
+     **Multiresolution IsoSurface Extraction (MISE)** - Build octree by incrementally querying the occupancy network. Extract triangular mesh using marching cubes algorithm.
+
+  2. Variational occupancy encoder (Формула)
+
+
 

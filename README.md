@@ -102,6 +102,10 @@
 
 **[[статья](http://www.cvlibs.net/publications/Niemeyer2019ICCV.pdf)] Occupancy Flow: 4D Reconstruction by Learning Particle Dynamics [[видео](https://www.youtube.com/watch?v=9r9TDr2Aq5A)]**
 
+**[[статья](https://arxiv.org/pdf/1901.05103.pdf)] DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation**
+
+**[[статья](https://arxiv.org/pdf/1812.02822.pdf)] Learning Implicit Fields for Generative Shape Modeling**
+
 #### 2020
 
 **[[статья](https://arxiv.org/pdf/2001.06280v1.pdf)] Review: deep learning on 3D point clouds**

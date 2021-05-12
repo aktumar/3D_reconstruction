@@ -8,3 +8,15 @@
 | 6    | RGB                     | глубине, цвете                          |          | [[8](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#5)] |
 | 7    | RGBD                    | глубине, цвете                          |          | [[8](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/references.md#5)] |
 
+
+
+
+
+| №    | Алгоритм          |      |
+| ---- | ----------------- | ---- |
+| 1    | 3D-R2N2           |      |
+| 2    | PSGN              |      |
+| 3    | Pix2Mesh          |      |
+| 4    | AtlasNet          |      |
+| 5    | Occupancy Network |      |
+

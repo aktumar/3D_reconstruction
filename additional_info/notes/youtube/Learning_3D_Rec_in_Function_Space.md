@@ -85,3 +85,38 @@
 
 
 
+
+
+- COM6 - *Motion*:
+  - Extending Occupancy Networks to 4D is hard (curse of dimension)
+  - Вместо этого можно представить форму только в один момент времени t = 0
+  - Система восстанавливает детали, и лишь затем дает деталям траекторию движения, представляя его непрерывным в пространстве и времени. Это легче, чем представлять весь 4D, из за гладкости представления
+  - Логично, в дело вступает взаимосвязь между 3D траекторией и скоростью, представленная в ODE: /--- ds(t)/dt = v(s(t), t) ---/
+
+
+
+
+
+- COM7 - *Loss Functions:*
+  - Reconstruction Loss (:mag_right:)
+  - Correspondence Loss (is optional)
+
+
+
+
+
+- COM8
+  - Occupancy Network
+  - Convolutional Occupancy Network
+
+
+
+
+
+- COM9 - *Summary:*
+  - Effective output representation for shape, appearence, material, motion, etc
+  - No discretization, model arbitrary topology
+  - Can be efficiently learned using 2D supervision
+  - Many applicaitions: reconstruction, view synthesis, segmentation etc
+  - 
+

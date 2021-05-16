@@ -108,6 +108,8 @@
 
 **[[статья](https://arxiv.org/pdf/1812.02822.pdf)] Learning Implicit Fields for Generative Shape Modeling**
 
+
+
 #### 2020
 
 **[[статья](https://arxiv.org/pdf/2001.06280v1.pdf)] Review: deep learning on 3D point clouds**
@@ -184,7 +186,7 @@
 
 **[[видео](https://www.youtube.com/watch?v=eCDBA_SbxCE)] (JUL2020) 3D Deep Learning with PyTorch3D by Nikhila Ravi**
 
-**[[видео](https://youtu.be/9r9TDr2Aq5A)] (JUN2020) Learning 3D Reconstruction in Function Space (Long Version) [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/youtube/Learning_3D_Rec_in_Function_Space.md)]** 
+**[[видео](https://youtu.be/9r9TDr2Aq5A)] :ballot_box_with_check: (JUN2020) Learning 3D Reconstruction in Function Space (Long Version) [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/youtube/Learning_3D_Rec_in_Function_Space.md)] [[слайд](http://www.cvlibs.net/talks/talk_cvpr_2020_implicit_long.pdf)]** 
 
 **[[видео](https://www.youtube.com/watch?v=-mQ60wNgKrQ&feature=youtu.be)] (NOV2020) The Beirut Port Explosions (English)**
 

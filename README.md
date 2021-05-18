@@ -188,7 +188,7 @@
 
 **[[видео](https://youtu.be/9r9TDr2Aq5A)] :ballot_box_with_check: (JUN2020) Learning 3D Reconstruction in Function Space (Long Version) [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/youtube/Learning_3D_Rec_in_Function_Space.md)] [[слайд](http://www.cvlibs.net/talks/talk_cvpr_2020_implicit_long.pdf)]** 
 
-**[[видео](https://www.youtube.com/watch?v=-mQ60wNgKrQ&feature=youtu.be)] (NOV2020) The Beirut Port Explosions (English)**
+**[[видео](https://www.youtube.com/watch?v=-mQ60wNgKrQ&feature=youtu.be)] :ballot_box_with_check: (NOV2020) The Beirut Port Explosions (English) [[GitHub](https://github.com/forensic-architecture/models)] [[сайт](https://forensic-architecture.org)]**
 
 <a name="stackoveflow" />
 
@@ -205,6 +205,8 @@
 **[[сайт](https://www.scientificamerican.com/article/how-3-d-scanning-is-reinventing-paleoanthropology/)] How 3-D Scanning Is Reinventing Paleoanthropology**
 
 **[[сайт](https://www.nature.com/articles/s41467-021-21326-w)] Unlocking history through automated virtual unfolding of sealed documents imaged by X-ray microtomography**
+
+**[[сайт](https://forensic-architecture.org)] Forensic Architecture**
 
 <a name="platform" />
 

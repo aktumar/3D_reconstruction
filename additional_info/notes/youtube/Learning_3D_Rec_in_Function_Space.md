@@ -118,5 +118,3 @@
   - No discretization, model arbitrary topology
   - Can be efficiently learned using 2D supervision
   - Many applicaitions: reconstruction, view synthesis, segmentation etc
-  - 
-

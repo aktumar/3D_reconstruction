@@ -10,7 +10,13 @@
 
 Результат: 
 
-<img width="50%" src="https://github.com/aktumar/3D_reconstruction/blob/main/media/Agisoft_Metashape_1.jpg"/> <img width="50%" src="https://github.com/aktumar/3D_reconstruction/blob/main/media/Agisoft_Metashape_2.jpg"/> <img width="50%" src="https://github.com/aktumar/3D_reconstruction/blob/main/media/Agisoft_Metashape_3.jpg"/>  
+<p>
+    <img width="20%" src="https://github.com/aktumar/3D_reconstruction/blob/main/media/Agisoft_Metashape_1.jpg"/> 
+    <img width="20%" src="https://github.com/aktumar/3D_reconstruction/blob/main/media/Agisoft_Metashape_2.jpg"/> 
+    <img width="20%" src="https://github.com/aktumar/3D_reconstruction/blob/main/media/Agisoft_Metashape_3.jpg"/>  
+</p>
+
+
 
 
 

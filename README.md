@@ -234,6 +234,8 @@
 
 **[Agisoft Metashape](https://www.agisoft.com/) [[:paperclip:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/experiments/Agisoft_Metashape.md)]**
 
+**[PyTorch](https://pytorch.org)**
+
 <a name="author" />
 
 ### Интересные авторы (на заметку):

@@ -134,7 +134,7 @@
 
 #### 2121
 
-**[[статья](https://arxiv.org/pdf/2012.02189.pdf)] Learned Initializations for Optimizing Coordinate-Based Neural Representations [[сайт](https://www.matthewtancik.com/learnit)] [[GitHub](https://github.com/sanowar-raihan/nerf-meta)] [[GitHub](https://github.com/tancik/learnit)]** 
+**[[статья](https://arxiv.org/pdf/2012.02189.pdf)] Learned Initializations for Optimizing Coordinate-Based Neural Representations [[сайт](https://www.matthewtancik.com/learnit)] [[GitHub](https://github.com/sanowar-raihan/nerf-meta)] [[GitHub](https://github.com/tancik/learnit)] [[GitHub](https://github.com/kwea123/nerf_pl)]** 
 
 
 
@@ -163,6 +163,12 @@
 **[[GitHub](https://github.com/Yochengliu/awesome-point-cloud-analysis#---recent-papers-from-2017)] awesome-point-cloud-analysis**
 
 **[[GitHub](https://github.com/aktumar/3D-Machine-Learning)] 3D-Machine-Learning**
+
+**[[GitHub](https://github.com/sanowar-raihan/nerf-meta)] NeRF Meta Learning With PyTorch** 
+
+**[[GitHub](https://github.com/tancik/learnit)] Learned Initializations for Optimizing Coordinate-Based Neural Representations** 
+
+**[[GitHub](https://github.com/kwea123/nerf_pl)] NeRF (Neural Radiance Fields) and NeRF in the Wild using pytorch-lightning**
 
 <a name="youtube" />
 

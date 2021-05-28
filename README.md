@@ -128,6 +128,18 @@
 
 **[[статья](https://arxiv.org/pdf/1912.07372.pdf)] Differentiable Volumetric Rendering: Learning Implicit 3D Representations without 3D Supervision [[видео](https://www.youtube.com/watch?v=9r9TDr2Aq5A)]**
 
+
+
+
+
+#### 2121
+
+**[[статья](https://arxiv.org/pdf/2012.02189.pdf)] Learned Initializations for Optimizing Coordinate-Based Neural Representations [[сайт](https://www.matthewtancik.com/learnit)] [[GitHub](https://github.com/sanowar-raihan/nerf-meta)] [[GitHub](https://github.com/tancik/learnit)]** 
+
+
+
+
+
 <a name="links" />
 
 ## Дополнительные ссылки

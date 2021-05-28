@@ -230,7 +230,7 @@
 
 ### Платформы:
 
-**[Agisoft Metashape](https://www.agisoft.com/)**
+**[Agisoft Metashape](https://www.agisoft.com/) [[:paperclip:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/experiments/Agisoft_Metashape)]**
 
 <a name="author" />
 

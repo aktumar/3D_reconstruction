@@ -172,6 +172,8 @@
 
 **[[GitHub](https://github.com/kwea123/nerf_pl)] NeRF (Neural Radiance Fields) and NeRF in the Wild using pytorch-lightning**
 
+**[[GitHub](https://github.com/bmild/nerf)] NeRF: Neural Radiance Fields**
+
 <a name="youtube" />
 
 ### YouTube:

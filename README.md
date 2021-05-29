@@ -170,7 +170,7 @@
 
 **[[GitHub](https://github.com/tancik/learnit)] Learned Initializations for Optimizing Coordinate-Based Neural Representations** 
 
-**[[GitHub](https://github.com/kwea123/nerf_pl)] NeRF (Neural Radiance Fields) and NeRF in the Wild using pytorch-lightning**
+**[[GitHub](https://github.com/kwea123/nerf_pl)] NeRF (Neural Radiance Fields) and NeRF in the Wild using pytorch-lightning [[видео](https://www.youtube.com/watch?v=TQj-KUQophI&list=PLDV2CyUo4q-K02pNEyDr7DYpTQuka3mbV&index=2)]**
 
 **[[GitHub](https://github.com/bmild/nerf)] NeRF: Neural Radiance Fields**
 

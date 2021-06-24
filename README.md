@@ -50,6 +50,8 @@
 
 Общий обзор на исследование, литературный обзор, ссылки на разные тематические статьи других авторов.
 
+**[[статья](https://www.researchgate.net/publication/322339391_Algorithms_and_Applications_of_Structure_from_Motion_SFM_A_Survey)] (NOV2017) Algorithms and Applications of Structure from Motion (SFM): A Survey**
+
 **[[статья](https://arxiv.org/pdf/1906.06543.pdf)] (NOV2019) Image-based 3D Object Reconstruction: State-of-the-Art and Trends in the Deep Learning Era [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/papers/Image_based_3D_Object_Rec_State_of_the_Art.md)]** 
 
 **[[статья](https://arxiv.org/pdf/1906.06113.pdf)] (JUN2019) A Survey on Deep Learning Architectures for Image-based Depth Reconstruction [[:thought_balloon:](https://github.com/aktumar/3D_reconstruction/blob/main/additional_info/notes/papers/A_Survey_on_DLA_for_Imagebased_DepthRec.md)]** 

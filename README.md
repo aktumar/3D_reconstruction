@@ -242,6 +242,9 @@
 
 **[PyTorch](https://pytorch.org)**
 
+**[kazaerospace](https://kazaerospace.com/ru/archives/category/cartography)**
+
+
 <a name="author" />
 
 ### Интересные авторы (на заметку):
